@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="//images-static.nykaa.com/media/favicon/default/nykaa_favicon_a.png" type="image/x-icon">
+    <title>Adress</title>
+    
+    <style>
+        body{
+            background-color: #f3f3f3;
+        }
+        #topNav{
+            width: 100%;
+            height: 70px;
+            border: 1px solid red;
+            background-color: white;
+           display:flex;
+        }
+        #topNav>div:nth-child(1){
+            /* border: 1px solid blue; */
+            width: 30%;
+        }
+        #topNav>div:nth-child(2){
+            /* border: 1px solid blue; */
+            width: 40%;
+        }
+       #logoDiv{
+           text-align: center;
+           padding-top: 10px;
+       }
+       #logo{
+           width: 40%;
+           height: 50px;
+       }
+       #adressDiv{
+           text-align: center;
+           font-size: 20px;
+           padding-top: 20px;
+           color: #ec065f;
+       }
+       #container{
+           width: 80%;
+           height: 400px;
+          
+           margin: auto;
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+           grid-template-rows: auto;
+           gap: 20px;
+           /* border: 1px solid red; */
+           margin-top: 30px;
+       }
+       #container>div{
+           border: 1px solid blue;
+       }
+       #left{
+         /* border: 1px solid black; */
+         padding: 10px 30px 10px 10px;
+         color: #e90a60;
+         background-color: white;
+       }
+      
+       #middle{
+           background-color: white;
+           padding:10px  10px 0px 10px;
+           width: 350px;
+           color: gray;
+       }
+       #middleLast{
+           background-color: #fc2779;
+           color: white;
+           text-align: center;
+           font-size: 20px;
+          
+           height: 30px;
+       }
+       #middleLast:hover{
+cursor: pointer;
+       }
+       #india{
+           margin-top: -12px;
+           color: black;
+       }
+       #mobile{
+           margin-bottom: -2px;
+           color: gray;
+       }
+      
+       a{
+           text-decoration: none;
+       }
+       hr{
+           color: gray;
+       }
+       #bold{
+           font-weight:bold;
+           color: black;
+       }
+    </style>
+</head>
+<body>
+    <div id="topNav">
+
+<div id="logoDiv">
+    <div> <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK47iYyT-3X758RkOppaeJ6z-1UPe_ehVqq-ldzFiA_Rw3Cwv_vQY_vk0MtNo7DsZg_Eg&usqp=CAU" alt="">  
+</div>
+</div>
+
+
+<div id="adressDiv">
+    Enter Your Adress
+</div>
+
+</div>
+
+<div id="container">
+
+<div >
+    <div id="left">Enter New Adress</div>
+</div>
+
+<div id="middle">
+    <div id="bold">New Adress</div>
+    <hr>
+    <p>select country</p>
+   <p id="india">India</p>
+    <hr>
+    <input type="text" name="" id="" placeholder="Enter Your Name">
+    <hr>
+
+    <input type="text" name="" id="email" placeholder="Enter Your Email">
+
+    <p id="mobile">Mobile Number</p>
+    <input type="number" name=""id="mNumber"  placeholder="Enter Your Mobile Number">
+    <hr>
+
+    <input type="number"placeholder="Enter Your Postal Code" >
+<hr>
+    <input type="text" placeholder="Enter Your deatil Adress">
+<a href="payment.html"><div id="middleLast"><p>Ship To this Adress  </p></div> </a>
+
+</div>
+
+<div>cart</div>
+</div>
+
+</body>
+</html>
+<script>
+    document.querySelector("#middleLast").addEventListener("click",adressfunction)
+var paymentDataArr=JSON.parse(localStorage.getItem("paymentData")) ||[]
+    function adressfunction()
+    {
+        // console.log("in")
+        var userEmail=document.querySelector("#email").value 
+        var userMobNumber=document.querySelector("#mNumber").value 
+      
+        var paymentDataObj={
+            Email:userEmail,
+            MobNumber:userMobNumber
+        }
+// paymentDataArr.push(paymentDataObj)
+   localStorage.setItem("paymentData",JSON.stringify(paymentDataObj))
+   location.reload()
+    }
+</script>
