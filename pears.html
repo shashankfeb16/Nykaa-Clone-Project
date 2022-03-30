@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pears</title>
+</head>
+<style>
+    body{
+        background-color: 
+            #f3f3f3;
+    }
+    h1{
+        text-align: center;
+    }
+    .upperbox{
+        margin-left: 80px;
+    }
+    h2{
+        text-align: center;
+    }
+    #maindiv{
+        display: flex;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 110px;
+        margin-right: 125px;
+        gap: 20px;
+    }
+    #container>div{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    #container>div>img{
+        margin-left: 30px;
+    }
+    #container>div>h4{
+        text-align: center;
+    }
+    #container>div>p{
+        text-align: center;
+    }
+    #container>div>button{
+        border: none;
+        border-radius: 10px;
+        height: 50px;
+        width: 200px;
+        background-color: palevioletred;
+        color: white;
+        font-weight: bolder;
+        margin-left: 35px;
+        margin-right: 20px;
+
+    }
+    #container>div:hover{
+        cursor: pointer;
+    }
+    #container>div>button:hover{
+        cursor: pointer;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    select{
+        border: none;
+        width: 200px;
+        height: 50px;
+        margin-left: 20px;
+        background-color: white;
+        font-weight: bold;
+        vertical-align: bottom;
+    }
+</style>
+<body>
+    <a href="cart.html"><button>cart</button></a>
+    <h1>Stock Up on Bathing Essentials!</h1>
+    <div class="upperbox">
+        <img src="https://images-static.nykaa.com/uploads/bdc465fa-c9b4-43af-ae49-7c12fbb1b279.jpg?tr=w-1200,cm-pad_resize" alt="">
+    </div>
+    <h2>ALL Products</h2>
+  
+   <div id="maindiv">
+    <div class="row">
+        <select  id="selected" onchange="handlepri()" >
+            <option value="">Sort by Price</option>
+            <option value="lth">Low to High</option>
+            <option value="htl">High to Low</option>
+        </select>
+        <select  id="selected1" onchange="handlerate()" >
+            <option value="">Sort by Rating</option>
+            <option value="lth">Low to High</option>
+            <option value="htl">High to Low</option>
+        </select>
+        <select>
+            <option value="">Catogary</option>
+        </select>
+        <select>
+            <option value="">Brand</option>
+        </select>
+        <select>
+            <option value="">Fragrance Family</option>
+        </select>
+        <select>
+            <option value="">Discount</option>
+        </select>
+        <select>
+            <option value="">Concious</option>
+        </select>
+        <select>
+            <option value="">Prefrence</option>
+        </select>
+        <select>
+            <option value="">Gender</option>
+        </select>
+        <select>
+            <option value="">Formulation</option>
+        </select>
+        <select>
+            <option value="">Skin Type</option>
+        </select>
+        <select>
+            <option value="">Concern</option>
+        </select>
+       </div>
+       <div id="container"></div>
+   </div>
+  
+</body>
+</html>
+<script>
+
+    window.addEventListener("load",function(){
+        displaydata(pearsdata);
+    })
+
+    function handlepri(){
+        var selected = document.querySelector("#selected").value
+        if(selected=="lth"){
+        pearsdata.sort(function(a,b){
+        return a.price-b.price
+        });
+        displaydata(pearsdata);
+        }
+        if(selected=="htl"){
+            pearsdata.sort(function(a,b){
+                return b.price-a.price
+            });
+            displaydata(pearsdata);
+        }
+    }
+    function handlerate(){
+        var selected = document.querySelector("#selected1").value
+        if(selected=="lth"){
+            pearsdata.sort(function(a,b){
+                return a.rating-b.rating
+            });
+            displaydata(pearsdata);
+        }
+        if(selected=="htl"){
+            pearsdata.sort(function(a,b){
+                return b.rating-a.rating
+            });
+            displaydata(pearsdata);
+        }
+    }
+    var pearsdata = [{
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/2/12367_s1-8901030707841_1.jpg",
+        name: "Pears Pure & Gentle Body Wash With Free Loofah",
+        price: 125,
+        rating: 4, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/17432_h-8901030707865n.jpg",
+        name: "Pears Oil Clear & Glow Body Wash 250ML pack",
+        price: 147,
+        rating: 4, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/17431_h-8901030707858.jpg",
+        name: "Pears Soft & Fresh Body Wash 250ML pack",
+        price: 145,
+        rating: 5, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/e/c/ec8472917581_17583.jpg",
+        name: "Pears Naturale Brightening Pomegranate + Nourishing",
+        price: 276,
+        rating: 5, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/3/3/33fc465NYPRS00000015_1.jpg",
+        name: "Pears Soft & Fresh + Oil Clear Bodywash Combo",
+        price: 294,
+        rating: 5, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/7/1/7120e6517581_h-8901030753985.jpg",
+        name: "Pears Naturale Brightening Pomegranate Bodywash",
+        price: 138,
+        rating: 4, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/a/a/aab0e6517582_h-8901030753992.jpg",
+        name: "Pears Naturale Detoxifying Aloevera Bodywash",
+        price: 138,
+        rating: 5, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/17432_1.jpg",
+        name: "Pears Oil Clear & Glow Shower Gel Pack of 2",
+        price: 125,
+        rating: 4, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/17530_h-8901030729348.jpg",
+        name: "Liril Berry Blast Body Wash 250ML pack",
+        price: 197,
+        rating: 4.3, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/v/w/vwas_pexpinth.jpg",
+        name: "VWash Plus Expert Intimate Hygiene Liquid Wash Enriched With Shea Butter Oil 250ML pack",
+        price: 170,
+        rating: 4.6, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/8/f/8ff8e6017660_h-8901030815911.jpg",
+        name: "VWash Plus Expert Intimate Hygiene Liquid Wash Enriched With Shea Butter Oil 100ML pack",
+        price: 170,
+        rating: 4.6, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/c/7/c75eb1111111002029_hero.jpg",
+        name: "Â Dove Exfoliating Body Polish Scrub with Pomegranate Seeds and Shea Butter",
+        price: 594,
+        rating: 4.6, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/8/0/80a4e6f8901030756351.jpg",
+        name: "Love Beauty & Planet Natural Tea Tree Oil & Vetiver Aroma Body Wash",
+        price: 383,
+        rating: 4.6, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/b/d/bdc78a544066_h-8901030838903.jpg",
+        name: "Dove Gentle Exfoliating Beads Body Wash For Softer Smoother Skin",
+        price: 400,
+        rating: 4.6, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/5/15d583d17602_h-8901030756320.jpg",
+        name: "Love Beauty & Planet Natural Murumuru Butter & Rose Aroma Body Wash",
+        price: 405,
+        rating: 4.6, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/3/3/33214ad11111002005_new_1.jpg",
+        name: "Dove Exfoliating Body Polish Scrub with Crushed Macadamia and Rice Milk",
+        price: 594,
+        rating: 4.7, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/17663_s1-8901030815935.jpg",
+        name: "VWash Plus Expert Intimate Hygiene Liquid Wash",
+        price: 462,
+        rating: 4.6, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/0/3/030df8e6281006485457_new_1.jpg",
+        name: "Pears Pure & Gentle Body Wash Original",
+        price: 279,
+        rating: 4.6, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/174be6017661_h-8901030815928.jpg",
+        name: "Pears Pure & Gentle Body Wash Original",
+        price: 279,
+        rating: 4.6, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/2/12367_s1-8901030707841_1.jpg",
+        name: "Pears Pure & Gentle Body Wash With Free Loofah",
+        price: 125,
+        rating: 4, 
+    },]
+   
+   var pearscart = JSON.parse(localStorage.getItem("data")) || [];
+  function displaydata(pearsdata){
+      document.querySelector("#container").innerHTML = "";
+    pearsdata.map(function(e){
+       var box = document.createElement("div");
+       var img = document.createElement("img");
+       img.src = e.image_Url;
+       var name = document.createElement("h4");
+       name.innerText = e.name;
+       var pri = document.createElement("p");
+       pri.innerText = "MRP"+": "+ e.price;
+       var rat = document.createElement("p");
+       rat.innerText = "Rating"+"-"+e.rating;
+       var btn = document.createElement("button");
+       btn.innerText = "Add to Bag";
+       btn.addEventListener("click",function(){
+           addtocart(e);
+       })
+       box.append(img,name,pri,rat,btn);
+       document.querySelector("#container").append(box);
+   });
+  }
+   function addtocart(e){
+        pearscart.push(e);
+        localStorage.setItem("data",JSON.stringify(pearscart));
+        alert("Item added to cart");
+        console.log(pearscart);
+   }
+</script>
