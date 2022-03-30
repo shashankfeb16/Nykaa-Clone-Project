@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="//images-static.nykaa.com/media/favicon/default/nykaa_favicon_a.png" type="image/x-icon">
+    <title>Payment</title>
+    <style>
+          body{
+            background-color: #f3f3f3;
+        }
+        #topNav{
+            width: 100%;
+            height: 70px;
+            /* border: 1px solid red; */
+            background-color: white;
+           display:flex;
+        }
+        #topNav>div:nth-child(1){
+            /* border: 1px solid blue; */
+            width: 30%;
+        }
+        #topNav>div:nth-child(2){
+            /* border: 1px solid blue; */
+            width: 40%;
+        }
+       #logoDiv{
+           text-align: center;
+           padding-top: 10px;
+       }
+       #logo{
+           width: 40%;
+           height: 50px;
+       }
+       #adressDiv{
+           text-align: center;
+           font-size: 20px;
+           padding-top: 20px;
+           color: #ec065f;
+       }
+       #container{
+           width: 80%;
+           height: 400px;
+          
+           margin: auto;
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+           grid-template-rows: auto;
+           gap: 20px;
+           /* border: 1px solid red; */
+           margin-top: 30px;
+       }
+       #container>div{
+           border: 1px solid blue;
+       }
+       #left1{
+         /* border: 1px solid black; */
+         padding: 10px 0px 10px 0px;
+         color: #e90a60;
+         background-color: white;
+       }
+       #middle{
+           background-color: white;
+           padding:10px  10px 0px 10px;
+           width: 350px;
+           height: 310px;
+           color: gray;
+       }
+      
+       
+       #india{
+           margin-top: -12px;
+       }
+       #mobile{
+           margin-bottom: -2px;
+           color: gray;
+       }
+       #bold{
+           font-weight:bold;
+           color: black;
+       }
+     
+       hr{
+           color: rgb(250, 244, 244);
+       }
+       #left{
+           padding-left: 10px;
+           background-color: white;
+           height: 270px;
+       }
+            
+       #payNow{
+           background-color: #fc2779;
+           height: 30px;
+           color: white;
+           text-align: center;
+           margin-top: -10px; 
+       }
+       #payNow:hover{
+           cursor: pointer;
+       }
+       a{
+           text-decoration: none;
+           color: white;
+       }
+       #payemntReceipt{
+           text-align: center;
+        background-color: #fc2779;
+           border: 1px solid red;
+           margin-top: 20px;
+           padding: 3px 0px 3px 0px;
+           color: white;
+           text-decoration: none;
+       }
+       #payemntReceipt:hover{
+           cursor: pointer;
+       }
+    </style>
+</head>
+<body>
+    <div id="topNav">
+
+        <div id="logoDiv">
+            <div> <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK47iYyT-3X758RkOppaeJ6z-1UPe_ehVqq-ldzFiA_Rw3Cwv_vQY_vk0MtNo7DsZg_Eg&usqp=CAU" alt="">  
+        </div>
+        </div>    
+        <div id="adressDiv">
+            Payment
+        </div>
+        </div>
+
+        <div id="container">
+
+            <div id="left" >
+                <div id="left1">Credit / Debit Card</div>
+                <hr>
+                <div>UPI</div>
+                <hr>
+                <div>Google Pay</div>
+                <hr>
+                <div>Net Banking</div>
+                <hr>
+                <div>Mobile Wallets</div>
+                <hr>
+                <div>Cash On Delivery</div>
+                <hr>
+                <div>Gift Card</div>
+                
+            </div>
+            
+            <div id="middle">
+                <div id="bold">Credit / Debit Card</div>
+                <hr>
+                <div>Card Number</div>
+                <input type="number" id="name" name="name"placeholder="Enter 16 Digits Card No" required
+                minlength="16" maxlength="16" size="25">
+                <hr>
+               <div>Expiry</div>
+               <input type="month"placeholder=" MM / YY"><span><input type="password" id="name"placeholder="CVV" name="name" required
+                minlength="3" maxlength="3" size="10"></span>
+               <hr>
+               <input type="text" id="name" placeholder="Enter 10 digit Mobile Number" name="name" required
+               minlength="10" maxlength="10" size="25">
+              <hr>
+              <input type="password" id="OTP"placeholder="Enter OTP" name="name" required
+              minlength="4" maxlength="4" size="10">
+             
+              <div id="payNow" ><p>Pay Now</p></div>
+
+
+              <div id="payemntReceipt"><a href="paymentSucceessful.html">Get Payment Receipt</a> </div>
+
+            </div>
+            <div>
+                cart
+            </div>
+
+</body>
+</html>
+<script>
+    document.querySelector("#payNow").addEventListener("click",paymentFunction)
+
+
+    function paymentFunction()
+    {
+        var enteredOTP=document.querySelector("#OTP").value 
+        console.log(enteredOTP)
+        if(enteredOTP=="1234")
+        {
+            alert("Payment Successfull")
+            location.reload()
+        }
+        else{
+            alert("Payment Failed")
+            location.reload()
+        }
+    }
+</script>
