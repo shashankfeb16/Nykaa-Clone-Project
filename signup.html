@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+                background-color: rgb(248, 246, 246);
+             }
+            #form {
+                width: 280px;
+                border: 1px solid rgb(230, 230, 230);
+                margin: 3% auto;
+                padding: 3%;
+                background: white;
+                border-radius: 10px;
+                font-size: 18px;
+                
+                }
+                img{
+                   width: 80%;
+                  }
+
+                  input{
+                      padding: 10px;
+                      font-size: 20px;
+                      margin-top: 10px;
+                      text-align: center;
+                  }
+                  #submit{
+                      margin-left: 25%;
+                      padding-left: 40px;
+                      padding-right: 40px;
+                      background-color: #fc2779;
+                      color: white;
+                      border: 0px;
+                      border-radius: 20px;
+                      cursor: pointer;
+                  }
+                  p{
+                      color: #4f5c68;
+                  }
+                  button{
+                    padding: 10px 50px;
+                      font-size: 20px;
+                      margin-top: 10px;
+                      text-align: center;
+                      border-radius: 10px;
+                     background-color: white;
+                     cursor: pointer;
+                      
+                  } 
+                  button:hover{
+                      background-color: #fc2779;
+                      color: white;
+                  }
+                  #back{
+                      text-decoration: none;
+                  }
+                  
+            
+        
+    </style>
+</head>
+<body>
+
+    <form id="form">
+        <a id="back" href="index.html">X</a>
+        <h1>Sign in</h2>
+            <p>To quickly find your favourites items, saved addresses and payments.</p>
+            <hr>
+            <p>Register and earn 2000 reward points </p>
+            <img src="https://thumbs.dreamstime.com/b/surprise-gift-box-17464369.jpg" alt="">
+            <input type="text" placeholder="Enter Email Id" id="email"/>
+            <input type="password" placeholder="Enter Password" id="pass"/>
+            <input type="text" placeholder="Enter Username" id="name"/> 
+            <br>
+            <input id="submit" type="submit" name="submit" value="Submit" />
+            <button > Login with Google</button>
+            <p>By continuing, you agree that you have read and accept our T&Cs and Privacy Policy.</p>
+            <p>Already Sign in? <a href="login.html">Go to login</a></p>
+
+    </form>
+    
+</body>
+</html>
+
+<script>
+    document.querySelector("#form").addEventListener("submit",myfunction);
+
+    var signinarr=JSON.parse(localStorage.getItem("signindata")) || [];
+
+    function myfunction(){
+        event.preventDefault()
+       // console.log("inside fn")
+       var signinobj={
+        email:document.querySelector("#email").value,
+        password:document.querySelector("#pass").value,
+        usrename:document.querySelector("#name").value
+
+       }
+       //console.log(signinobj)
+       signinarr.push(signinobj)
+      // console.log(signinarr);
+      localStorage.setItem("signindata", JSON.stringify(signinarr))
+      alert("Sigin successful")
+     window.location.href="login.html"
+      
+
+    }
+
+</script>
