@@ -70,8 +70,9 @@ console.log(userdata);
                 break;
               
             }
-            else{
-               console.log("login unsuccessful")
+            if(userdata[i].email!=enteremail && userdata[i].password!=enterpass){
+               alert("login unsuccessful");
+               break;
                
             }
 

@@ -12,18 +12,20 @@
         }
         #topNav{
             width: 100%;
-            height: 70px;
+            padding: 15px;
             /* border: 1px solid red; */
             background-color: white;
            display:flex;
         }
         #topNav>div:nth-child(1){
             /* border: 1px solid blue; */
-            width: 30%;
+            width: 20%;
+            margin-left:8%;
         }
         #topNav>div:nth-child(2){
             /* border: 1px solid blue; */
             width: 40%;
+            font-size: 30px;
         }
        #logoDiv{
            text-align: center;
@@ -41,7 +43,7 @@
        }
        #container{
            width: 80%;
-           height: 400px;
+          
           
            margin: auto;
            display: grid;
@@ -51,21 +53,26 @@
            /* border: 1px solid red; */
            margin-top: 30px;
        }
-       #container>div{
+       /* #container>div{
            border: 1px solid blue;
-       }
+       } */
        #left1{
          /* border: 1px solid black; */
          padding: 10px 0px 10px 0px;
          color: #e90a60;
          background-color: white;
        }
+       #left div:hover{
+           cursor: pointer;
+           color: #e90a60;
+       }
        #middle{
            background-color: white;
            padding:10px  10px 0px 10px;
            width: 350px;
-           height: 310px;
+           
            color: gray;
+           font-size: 20px;
        }
       
        
@@ -92,10 +99,10 @@
             
        #payNow{
            background-color: #fc2779;
-           height: 30px;
+          padding: 15px;
            color: white;
            text-align: center;
-           margin-top: -10px; 
+           margin-top: 10px; 
        }
        #payNow:hover{
            cursor: pointer;
@@ -104,18 +111,28 @@
            text-decoration: none;
            color: white;
        }
-       #payemntReceipt{
-           text-align: center;
-        background-color: #fc2779;
-           border: 1px solid red;
-           margin-top: 20px;
-           padding: 3px 0px 3px 0px;
-           color: white;
-           text-decoration: none;
+       #getotp{
+           padding: 10px 20px;
+           border-radius: 5px;
+           border: 1px solid  rgb(121, 118, 118);
        }
-       #payemntReceipt:hover{
+       #getotp:hover{
            cursor: pointer;
+           background-color:   #fc2779;
        }
+       #cartData>div{
+           /* border: 1px solid red; */
+           font-size: 30px;
+           background-color: white;
+       }
+       #length{
+margin-top: 20px;
+
+       }
+       #total{
+           margin-top: 20px;
+       }
+     
     </style>
 </head>
 <body>
@@ -160,36 +177,72 @@
                <input type="month"placeholder=" MM / YY"><span><input type="password" id="name"placeholder="CVV" name="name" required
                 minlength="3" maxlength="3" size="10"></span>
                <hr>
-               <input type="text" id="name" placeholder="Enter 10 digit Mobile Number" name="name" required
+               <input type="number" id="name" placeholder="Enter 10 digit Mobile Number" name="name" required
                minlength="10" maxlength="10" size="25">
+              <hr>
+              <button id="getotp" onclick="checkotp()">Get OTP</button>
               <hr>
               <input type="password" id="OTP"placeholder="Enter OTP" name="name" required
               minlength="4" maxlength="4" size="10">
              
-              <div id="payNow" ><p>Pay Now</p></div>
+              <div id="payNow" > Pay Now</div>
 
-
-              <div id="payemntReceipt"><a href="paymentSucceessful.html">Get Payment Receipt</a> </div>
+              <!-- <a href="paymentSucceessful.html"></a> -->
+              
 
             </div>
-            <div>
-                cart
-            </div>
+            <div id="cartData">
+                <div id="length"></div>
+                <div id="total"></div>
+                </div>
 
 </body>
 </html>
 <script>
+   
+   var cartData=JSON.parse(localStorage.getItem("cartData"))
+console.log(cartData)
+
+document.querySelector("#length").innerText="Total Itmes :"+" "+cartData.Length
+document.querySelector("#total").innerText="Total Amount :"+" "+"RS"+" "+cartData.Total+"/-"
+
+    function checkotp(){
+        alert("OTP send to register mobile number")
+
+        
+        // var flag=false;
+        // var number=document.querySelector("#name").value
+        // if(number.length==10){
+        //     flag=true;
+        //     return true;
+        // }
+        // if(flag==true){
+            
+        // }
+        // else{
+        //     alert("invalid number")
+        // }
+            
+        
+    }
+
+
+
+
+
     document.querySelector("#payNow").addEventListener("click",paymentFunction)
 
 
     function paymentFunction()
     {
+        
         var enteredOTP=document.querySelector("#OTP").value 
         console.log(enteredOTP)
         if(enteredOTP=="1234")
         {
+           
             alert("Payment Successfull")
-            location.reload()
+            window.location.href="paymentSucceessful.html"
         }
         else{
             alert("Invalid OTP")

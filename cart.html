@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<style>
+     #container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 20px;
+        margin-left: 300px;
+        margin-right: 315px;
+        gap: 20px;
+    }
+    #container>div{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    #container>div>img{
+        margin-left: 30px;
+    }
+    #container>div>h4{
+        text-align: center;
+    }
+    #container>div>p{
+        text-align: center;
+    }
+    #container>div>button{
+        border: none;
+        border-radius: 10px;
+        height: 50px;
+        width: 200px;
+        background-color: palevioletred;
+        color: white;
+        font-weight: bolder;
+        margin-left: 25px;
+        margin-right: 20px;
+
+    }
+    #container>div:hover{
+        cursor: pointer;
+    }
+    #container>div>button:hover{
+        cursor: pointer;
+    }
+    #total{
+        height: 100px;
+        width: 300px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-left: 490px;
+        margin-top: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 25px;
+    }
+    #btn1{
+        border: none;
+        border-radius: 10px;
+        height: 50px;
+        width: 200px;
+        background-color: 
+        #008060;    
+        color: white;
+        font-weight: bolder;
+        margin-left: 560px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    #btn1:hover{
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+    }
+    @media only screen and (min-width:421px) and (max-width:780px){
+        #container{
+            grid-template-columns: repeat(1,1fr);
+        }
+        #total{
+            margin-left: 268px;
+        }
+        #btn1{
+            margin-left: 325px;
+        }
+    }
+</style>
+<body>
+    <div id="total">
+        <h4></h4>
+    </div>
+    <div id="container"></div>
+    <a href="adress.html"><button id="btn1">Proceed To Checkout</button></a>
+    
+</body>
+</html>
+<script>
+    var pearsdata = JSON.parse(localStorage.getItem("data"));
+    var total = pearsdata.reduce(function(sum,e,i,arr){
+        return sum+e.price;
+    },0);
+    var length = pearsdata.length
+
+    var cartData={
+        Total:total,
+        Length:length,
+    }
+localStorage.setItem("cartData",JSON.stringify(cartData))
+
+
+    document.querySelector("#total>h4").innerText = `Total items ${length}  & Total amount is RS ${total}`;
+    pearsdata.map(function(e,i){
+        var box = document.createElement("div");
+        var image = document.createElement("img");
+        image.src = e.image_Url
+        var name = document.createElement("h4");
+        name.innerText = e.name;
+        var pri = document.createElement("p");
+        pri.innerText = "MRP"+": "+ e.price;
+         var rat = document.createElement("p");
+        rat.innerText = "Rating"+"-"+e.rating;
+        var btn = document.createElement("button");
+        btn.innerText = "Remove";
+        btn.addEventListener("click",function(){
+            removeItem(e,i);
+        });
+        box.append(image,name,pri,rat,btn);
+        document.querySelector("#container").append(box);
+    });
+    function removeItem(e,i){
+        pearsdata.splice(i,1);
+        console.log(pearsdata)
+        localStorage.setItem("data",JSON.stringify(pearsdata));
+        window.location.reload();
+    }
+</script>
