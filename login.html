@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+                background-color: rgb(248, 246, 246);
+             }
+            #form {
+                width: 280px;
+                border: 1px solid rgb(230, 230, 230);
+                margin: 3% auto;
+                padding: 3%;
+                background: white;
+                border-radius: 10px;
+                font-size: 18px;
+              
+                
+                }
+                input{
+                      padding: 10px;
+                      font-size: 20px;
+                      margin-top: 30px;
+                      text-align: center;
+                  }
+                #submit{
+                      margin-left: 25%;
+                      padding-left: 30px;
+                      padding-right: 30px;
+                      background-color: #fc2779;
+                      color: white;
+                      border: 0px;
+                      border-radius: 5px;
+                      cursor: pointer;
+                  }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <h1>Log in</h2>
+            <input type="text" placeholder="Enter Email Id" id="email"/>
+            <input type="password" placeholder="Enter Password" id="pass"/>
+             
+            <br>
+            <input id="submit" type="submit" name="submit" value="Submit" />
+            
+
+    </form>
+    
+</body>
+</html>
+<script>
+       document.querySelector("#form").addEventListener("submit",loginfn)
+
+var userdata=JSON.parse(localStorage.getItem("signindata"))
+console.log(userdata);
+
+    function loginfn(){
+        event.preventDefault();
+        var enteremail=document.querySelector("#email").value
+        var enterpass=document.querySelector("#pass").value
+        
+        for(var i=0;i < userdata.length;i++){
+            if(userdata[i].email==enteremail && userdata[i].password==enterpass){
+                alert("Login Successful");
+                window.location.href="index.html";
+                break;
+              
+            }
+            else{
+               console.log("login unsuccessful")
+               
+            }
+
+            
+            
+
+        }
+    }
+</script>
