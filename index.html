@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <link rel="icon" href="//images-static.nykaa.com/media/favicon/default/nykaa_favicon_a.png" type="image/x-icon">
+ 
+
+
+    <!-- scrollpart -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- scrollpart -->
+
+
+
+
     <title>Clone Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa</title>
     <script
     src="https://kit.fontawesome.com/24c494a6b6.js"
@@ -18,8 +30,7 @@
 }
     #topContainer{
         display: grid;
-        width: 100%;
-        height: 120px;
+      
         /* border: 1px solid red; */
         
        grid-template-columns: repeat(1,1fr);
@@ -29,8 +40,7 @@
     }
     #top1{
         /* border: 1px solid black; */
-        width: 100%;
-        height: 30px;
+       padding: 10px;
         background-image: url(https://adn-static1.nykaa.com/media/wysiwyg/2021/common-strip.jpg);
         display: flex;
         justify-content: space-around;
@@ -39,11 +49,7 @@
   #top1Left{
       padding-top: 5px;
   }
-    #top3{
-        /* border: 1px solid pink; */
-        width: 100%;
-        height: 35px;
-    }
+    
     #top1Right{
         display: flex;
         justify-content: space-evenly;
@@ -66,33 +72,70 @@
   #top2{
        
         border-bottom: 1px solid rgb(241, 220, 220);
-        width: 100%;
-        height: 40px;
-
+        padding: 13px;
+       
         display: flex;
-        justify-content: space-evenly;
-        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    #top2>div{
+        margin-right: 30px;
+        font-weight: bold;
+        font-size: 15px;
     }
     #top3>div:hover{
         cursor: pointer;
         color: red;
     }
+    #top3>#offer>a:hover{
+     color: black;
+     
+    }
+    #top3>#offer>a{
+        color: white;
+        text-decoration: none;
+    }
     #top2>div:hover{
         cursor: pointer;
         color: red;
-    }
+        
+     }
+     #top2 input{
+        
+         font-size: 15px;
+       
+     }
+     
+     
+
+    
 #logo{
     width: 90px;
     height: 40px;
 }
 #top3{
     display: flex;
-    justify-content: space-evenly;
-    padding: 8px ;
-    font-size: 12px;
+    justify-content:center;
+    padding: 20px ;
+    font-size: 15px;
     color: gray;
     
+    
 }
+
+    #top3>div{
+       margin-right: 30px;
+    }
+    
+    #offer{
+  background-color:  red;
+  color: white;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+
+
 #singlediv{
    /* border: 1px solid blue; */
     margin: auto;
@@ -100,16 +143,16 @@
   
 }
 #singleImage{
-    width: 80%;
-    height: 200px;
+    width: 75%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+   
   
 }
 #heading{
     text-align: center;
-    font-size: 20px;
-}
-#heading:hover{
-cursor: pointer;
+    font-size: 25px;
+    margin-top: 20px;
 }
 #topBrandsDiv{
     display: grid;
@@ -117,14 +160,14 @@ cursor: pointer;
     grid-template-rows: auto;
     gap: 20px;
     margin: auto;
-    width: 80%;
+    width: 75%;
 
     /* border: 1px solid blue; */
 }
 #topBrandsDiv>div>img{
     /* border: 1px solid red; */
     width: 100%;
-    height: 200px;
+   
   
 }
 #onlyAtNykaa{
@@ -133,13 +176,13 @@ cursor: pointer;
     grid-template-rows: auto;
     gap: 20px;
     margin: auto;
-    width: 80%;
+    width: 75%;
     /* border: 1px solid blue; */
 }
 #onlyAtNykaa>div>img{
     /* border: 1px solid red; */
     width: 100%;
-    height: 200px;
+   
   
 }
 #featuredBrands{
@@ -148,30 +191,31 @@ cursor: pointer;
     grid-template-rows: auto;
     gap: 20px;
     margin: auto;
-    width: 80%;
+    width: 75%;
+   
     /* border: 1px solid blue; */
 }
 #featuredBrands>div>img{
     /* border: 1px solid red; */
     width: 100%;
-    height: 200px;
+ 
   
 }
 #editorsChoice{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(1,150px);
+    grid-template-rows: auto;
     gap: 20px;
     margin: auto;
-    width: 80%;
-    margin-bottom: 150px;
+    width: 75%;
+   
     /* border: 1px solid blue; */
 
 }
 #editorsChoice>div>img{
     /* border: 1px solid red; */
     width: 100%;
-    height: 280px;
+   
   
 }
 #offerYouCantMiss{
@@ -180,18 +224,20 @@ cursor: pointer;
     grid-template-rows: auto;
     gap: 20px;
     margin: auto;
-    width: 80%;
+    width: 75%;
     /* border: 1px solid blue; */
 }
 #offerYouCantMiss>div>img{
     /* border: 1px solid red; */
     width: 100%;
-    height: 200px;
+ 
   
 }
 #singleImage1{
     width: 80%;
-    height: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
     
 }
 #popUpStories{
@@ -200,14 +246,14 @@ cursor: pointer;
     grid-template-rows: repeat(1,150px);
     gap: 20px;
     margin: auto;
-    width: 80%;
+    width: 75%;
     margin-bottom: 150px;
     /* border: 1px solid blue; */
 }
 #popUpStories>div>img{
     /* border: 1px solid red; */
     width: 100%;
-    height: 200px;
+   
   
 }
 #popUpStories2{
@@ -215,32 +261,32 @@ cursor: pointer;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
     margin: auto;
-    width: 80%;
+    width: 75%;
     gap: 20px;
     /* border: 1px solid blue; */
 }
 #popUpStories2>div>img{
     /* border: 1px solid red; */
     width: 100%;
-    height: 300px;
+    
   
 }
 #singleImage2{
-    width: 50%;
-    height: 160px;
+    width: 40%;
+   
 }
 #beautyAdvice{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
     margin: auto;
-    width: 80%;
+    width: 75%;
     gap: 20px;
 }
 #beautyAdvice>div>img{
     /* border: 1px solid red; */
     width: 100%;
-    height: 200px;
+   
   
 }
 
@@ -252,9 +298,134 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px
     cursor: pointer;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-a{
-    text-decoration: none;
-}
+ 
+
+/* footer style */
+
+#box{
+            height:800px ;
+            width: 100%;
+          
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 30px;
+          
+        }
+        #box1{
+         
+           justify-content: space-around;
+           padding: 30px;
+            display: flex;
+            align-items: center;
+            background-color: #3f414d;
+            color: white;
+            margin-top: 10px;
+            
+
+        }
+        #box2{
+            
+           
+            display: flex;
+            padding-left: 200px;
+            color: white;
+            background-color: #8c8d94;
+            padding-top: 30px;
+            
+        
+        }
+        #box3{
+          
+           
+            display: flex;
+           justify-content: center;
+        }#box4{
+           
+           
+           text-align: center;
+           background-color: #fc2779;
+           color: white;
+           font-size: 15px;padding: 6px;
+          
+           
+
+        }
+        #email{
+            border: 1px #3f414d;
+            border-bottom: 1px solid white;
+            background-color:#3f414d ;
+            color: white;
+        }
+        #box1 img{
+            height: 40px;
+            width: 120px;
+          
+        }
+        #box1a{
+            font-size: 20px;
+        }
+        
+        #box1a > button{
+            background-color:#3f414d ;
+            color: white;
+            border-color: white;
+        }
+        /* .......box2........ */
+        #box2 div{
+            padding-right: 140px;
+           
+        }
+        #box4 div{
+            margin-right: 20px;
+        }
+        #box4a{
+            display: flex;
+            justify-content: center;
+            margin-bottom: -10px;
+        }
+        .box3a {
+         
+          display: flex;
+          justify-content: space-between;
+         width: 15%;
+          padding: 20px;
+          margin: 50px 0px;
+          font-size: 15px;
+        }
+        .box3a img{
+           margin-right: 20px;
+           margin-top: 20px;
+        }
+        .box3a p{
+            margin-bottom: -20px;
+        }
+        #box3a1{
+            width: 12%;
+          padding: 20px;
+          margin: 50px 0px;
+          font-size: 15px;
+          text-align: center;
+        }
+        #box3a12{
+            display: flex;
+            justify-content: space-around
+            
+        }
+        #top2>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top2>div>a:hover{
+        color: red;
+        }
+        #top1Right>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top1Right>div>a:hover{
+            color: red;
+        }
+
 </style>
 <body>
     <div id="topContainer">
@@ -262,14 +433,14 @@ a{
 <div id="top1">
 <div id="top1Left"> BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals </div>
 <div id="top1Right">
-      <div><i class="fa-solid fa-mobile-screen"></i>
-        <span>Get App  </span></div>    
+      <div><i class="fa-solid fa-mobile-screen"></i> <a href="get app.html">Get App </a>
+       </div>    
              
 <div><i class="fa-solid fa-location-dot"></i>
     <span>Store & Events</span></div> 
 
-    <div><i class="fa-solid fa-gift"></i>
-        <span>Gift Card</span></div>
+    <div><i class="fa-solid fa-gift"></i> <a href="gift card.html">Gift Card</a>
+       </div>
     <div> <i class="fa-solid fa-circle-question"></i>
         <span>Help</span></div> 
 </div>
@@ -279,22 +450,14 @@ a{
     <div> <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK47iYyT-3X758RkOppaeJ6z-1UPe_ehVqq-ldzFiA_Rw3Cwv_vQY_vk0MtNo7DsZg_Eg&usqp=CAU" alt="">   
     </div>
     <div>Categories</div>
-    <div>
-        <select name="" id=""> 
-           <option value=""> Brands</option>
-           <option value="" > <a href="pears.html">Pears</a>  </option>
-           <option value="">MINI M.A.C</option>
-           <option value="">Cetaphil</option>
-        </select>
-        </div>
+    <div><a href="pears.html">Brands</a>  </div>
     <div>  Nykaa Fashion</div>
     <div>Beauty Advice</div>
     <div>Nykaa Network</div>
     <div><i class="fa-solid fa-magnifying-glass"></i><input type="text"  placeholder= "Search on Nykaa"></div>
-    <div><i class="fa-solid fa-user"></i>
-<span>Account</span>
+    <div id="signup"><i class="fa-solid fa-user"></i><a href="signup.html"> Account</a> 
     </div>
-    <div> <i class="fa-solid fa-bag-shopping"></i></div>
+    <div> <i class="fa-solid fa-bag-shopping"></i>  <a href="cart.html">cart</a> </div>
 </div>
 
 <div id="top3">
@@ -311,10 +474,36 @@ a{
         Men</div>
     <div>Fragrance</div>
     <div>LUXE</div>
-    <div>OFFERS</div>
+    <div id="offer"> <a href="offers.html"> OFFERS </a> </div>
 </div>
 
     </div>
+    <!-- scroll page start -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+          <div class="carousel-item active">
+            <img src="https://images-static.nykaa.com/uploads/bd16953f-139d-4b4a-8caf-09c5ffd93095.jpg?tr=w-1200,cm-pad_resize" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images-static.nykaa.com/uploads/d49d5e85-443e-4076-b67f-2c4b749a94f2.jpg?tr=w-1200,cm-pad_resize" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images-static.nykaa.com/uploads/0be60fca-da8f-49f4-8db0-f953da87faeb.jpg?tr=w-1200,cm-pad_resize" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- scroll page end -->
 
 <div id="singlediv" >
     <img id="singleImage" src="https://images-static.nykaa.com/uploads/f7e8d348-a380-4e22-a651-ea5da67d5823.jpg?tr=w-1200,cm-pad_resize" alt="">
@@ -323,7 +512,6 @@ a{
 
 <div id="heading"><p>TOP BRANDS</p></div>
 <div id="topBrandsDiv" class="hoverAndShadow"></div>
-
 
 <div id="heading" ><p>ONLY AT NYKAA</p></div>
 <div id="onlyAtNykaa"class="hoverAndShadow"></div>
@@ -355,6 +543,149 @@ a{
 <div id="beautyAdvice"class="hoverAndShadow" ></div>
 
 <div id="singlediv"><img id="singleImage1"  src="https://images-static.nykaa.com/uploads/58c1c0b0-5a0b-4614-acfc-3205e669d8a7.jpg?tr=w-1200,cm-pad_resize" alt=""></div>
+
+<!-- footer code -->
+<div id="box">
+    <div id="box1">
+         <!-- <div><p>Connection <span> <i class="fa-solid fa-greater-than"></i></span></p></div> -->
+        <div id="box1a">
+             <p> <span><i class="fa-solid fa-envelope"></i></span> Get special discount on your inbox</p> 
+             <input type="text" placeholder="Your Email" id="email"> 
+             <button>Send</button>
+
+        </div>
+        <div>
+            <p> <span><i class="fa-solid fa-mobile-screen"></i></span> EXPERIENCE THE NYKAA MOBILE APP </p>
+            <img src="google.png" alt="">
+             <img  src="apple.png" alt="">
+        </div>
+        <div>
+            <p> <span><i class="fa-solid fa-phone"></i></span> FOR ANY HELP YOU MAY CALL US AT <br> 1800-267-4444</p>
+           
+            <p>(Monday to Saturday, 8AM to 10PM and Sunday, 10AM to 7PM)</p>
+        </div>
+    </div>
+    <div id="box2">
+        <div>
+            <h3>NYKKA</h3>
+            <p>Who are we?</p>
+            <p>Careers</p>
+            <p>Authenticity</p>
+            <p>Press</p>
+            <p>Testimonials</p>
+            <p>Nykaa CSR</p>
+            <p>Responsible <br> Disclosure</p>
+            <p>Investor Relations</p>
+        </div>
+        <div>
+            <h3>Help</h3>
+            <p>Contact Us</p>
+            <p>Frequently asked <br> questions</p>
+            <p>Store Locator</p>
+            <p>Cancellation & <br> Return</p>
+            <p>Shipping & Delivery</p>
+            <p>Sell on Nykaa</p>
+        </div>
+        <div>
+            <h3>Inspire me</h3>
+            <p>Beauty Book</p>
+            <p>Nykaa TV</p>
+            <p>Nykaa Network</p>
+            <p>Buying Guides</p>
+        </div>
+        <div>
+            <h3>Quick Links</h3>
+            <p>Offer Zone</p>
+            <p>New Launches</p>
+            <p>Nykaa Man</p>
+            <p>Nykaa Fashion</p>
+            <p>Nykaa Pro</p>
+            <p>Nykaa femina <br> beauty awards <br> winners 2019</p>
+            <p>Sitemap</p>
+        </div>
+        <div>
+            <h3>Top Categories</h3>
+            <p>Makeup</p>
+            <p>Skin</p>
+            <p>Hair</p>
+            <p>Personal Care</p>
+            <p>Appliances</p>
+            <p>Mom and Baby</p>
+            <p>Wellness</p>
+            <p>Fragrance</p>
+            <p>Natura</p>
+            <p>Luxe</p>
+        </div>
+    </div>
+    <div id="box3">
+       
+        <div class="box3a">
+            <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Free-shipping.svg" alt=""></div>
+            <div><p>FREE SHIPPING</p><br>
+                <hr>
+                <p>for orders above INR299</p>
+            </div>
+           
+           
+        </div>
+        <div  class="box3a">
+            <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/return_accepted.svg" alt=""></div>
+            <div><p>EASY RETURNS</p><br>
+                <hr>
+                <p>15 Day Easy Returns For Most Products</p>
+            </div>
+        </div>
+        <div  class="box3a">
+            <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Authenticity.svg" alt=""></div>
+            <div><p>AUTHENTIC <br> PRODUCTS</p><br>
+                <hr>
+                <p>Sourced Directly from <br> Brands/ Authorised Distributors</p>
+            </div>
+        </div>
+        <div  class="box3a">
+            <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Brands.svg" alt=""></div>
+            <div><p>2400+ BRANDS</p><br>
+                <hr>
+                <p>Well Curated 1.9Lakh + Product</p>
+            </div>
+        </div>
+        <div id="box3a1" >
+            <div> <p>Show us some love ❤ on social media</p></div>
+            <div id="box3a12">
+                <div>
+                    <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-instagram-filled.svg" alt="">
+                </div>
+                <div>
+                    <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-facebook-filled.svg" alt="">
+                </div>
+                <div>
+                    <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-youtube-filled.svg" alt="">
+                </div>
+                <div>
+                    <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-twitter-filled.svg" alt="">
+                </div>
+                <div>
+                    <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-pinterest-filled.svg" alt="">
+                </div>
+            </div>
+          
+            
+        </div>
+    </div>
+    <div id="box4">
+        <div id="box4a">
+            <div>  <p>Terms & Conditions </p>  </div>
+            <div><p>Shipping Policy </p> </div>
+            <div><p>Cancellation Policy </p> </div>
+            <div><p>  Privacy Policy</p> </div>
+        </div>
+       <div>
+        <p>© 2022 Nykaa E-Retail Pvt. Ltd. All Rights Reserved.</p>
+       </div>
+       
+       
+    </div>
+</div>
 
 
 
@@ -467,11 +798,12 @@ a{
        
        offerDive.style.textAlign="center"
     //    offerDive.style.border="1px solid blue"
-       offerDive.style.fontSize="12px"
-       offerDive.style.lineHeight="10px"
+       offerDive.style.fontSize="18px"
+       offerDive.style.lineHeight="15px"
        offerDive.style.backgroundColor="white"
-       offerDive.style.marginTop="-15px"
-       offerDive.style.height="50px"
+       offerDive.style.marginTop="0px"
+       offerDive.style.height="70px"
+       
        
 
        var Discount=document.createElement("p")
