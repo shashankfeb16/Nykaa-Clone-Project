@@ -215,6 +215,117 @@
         font-weight: bold;
         vertical-align: bottom;
     }
+
+  /* <---footer style starts---> */
+    #box{
+            height:800px ;
+            width: 100%;
+          
+            display: flex;
+            flex-direction: column;
+          
+          
+        }
+        #box1{
+         
+           justify-content: space-around;
+           padding: 30px;
+            display: flex;
+            align-items: center;
+            background-color: #3f414d;
+            color: white;
+            
+
+        }
+        #box2{
+            
+           
+            display: flex;
+            padding-left: 200px;
+            color: white;
+            background-color: #8c8d94;
+            padding-top: 30px;
+        
+        }
+        #box3{
+          
+           
+            display: flex;
+           justify-content: center;
+        }#box4{
+           
+           
+           text-align: center;
+           background-color: #fc2779;
+           color: white;
+           font-size: 15px;padding: 6px;
+           
+
+        }
+        #email{
+            border: 1px #3f414d;
+            border-bottom: 1px solid white;
+            background-color:#3f414d ;
+            color: white;
+        }
+        #box1 img{
+            height: 40px;
+            width: 120px;
+          
+        }
+        #box1a{
+            font-size: 20px;
+        }
+        
+        #box1a > button{
+            background-color:#3f414d ;
+            color: white;
+            border-color: white;
+        }
+        /* .......box2........ */
+        #box2 div{
+            padding-right: 140px;
+           
+        }
+        #box4 div{
+            margin-right: 20px;
+        }
+        #box4a{
+            display: flex;
+            justify-content: center;
+            margin-bottom: -10px;
+        }
+        .box3a {
+         
+          display: flex;
+          justify-content: space-between;
+         width: 15%;
+          padding: 20px;
+          margin: 50px 0px;
+          font-size: 15px;
+        }
+        .box3a img{
+           margin-right: 20px;
+           margin-top: 20px;
+        }
+        .box3a p{
+            margin-bottom: -20px;
+        }
+        #box3a1{
+            width: 12%;
+          padding: 20px;
+          margin: 50px 0px;
+          font-size: 15px;
+          text-align: center;
+        }
+        #box3a12{
+            display: flex;
+            justify-content: space-around
+            
+        }
+        /* <---footer style ends---> */
+
+
 </style>
 <body>
 
@@ -324,6 +435,153 @@
        <div id="container"></div>
    </div>
   
+<!-- <---footer body starts--->  -->
+    <div id="box">
+        <div id="box1">
+             <!-- <div><p>Connection <span> <i class="fa-solid fa-greater-than"></i></span></p></div> -->
+            <div id="box1a">
+                 <p> <span><i class="fa-solid fa-envelope"></i></span> Get special discount on your inbox</p> 
+                 <input type="text" placeholder="Your Email" id="email"> 
+                 <button>Send</button>
+
+            </div>
+            <div>
+                <p> <span><i class="fa-solid fa-mobile-screen"></i></span> EXPERIENCE THE NYKAA MOBILE APP </p>
+                <img src="google.png" alt="">
+                 <img  src="apple.png" alt="">
+            </div>
+            <div>
+                <p> <span><i class="fa-solid fa-phone"></i></span> FOR ANY HELP YOU MAY CALL US AT <br> 1800-267-4444</p>
+               
+                <p>(Monday to Saturday, 8AM to 10PM and Sunday, 10AM to 7PM)</p>
+            </div>
+        </div>
+        <div id="box2">
+            <div>
+                <h3>NYKKA</h3>
+                <p>Who are we?</p>
+                <p>Careers</p>
+                <p>Authenticity</p>
+                <p>Press</p>
+                <p>Testimonials</p>
+                <p>Nykaa CSR</p>
+                <p>Responsible <br> Disclosure</p>
+                <p>Investor Relations</p>
+            </div>
+            <div>
+                <h3>Help</h3>
+                <p>Contact Us</p>
+                <p>Frequently asked <br> questions</p>
+                <p>Store Locator</p>
+                <p>Cancellation & <br> Return</p>
+                <p>Shipping & Delivery</p>
+                <p>Sell on Nykaa</p>
+            </div>
+            <div>
+                <h3>Inspire me</h3>
+                <p>Beauty Book</p>
+                <p>Nykaa TV</p>
+                <p>Nykaa Network</p>
+                <p>Buying Guides</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <p>Offer Zone</p>
+                <p>New Launches</p>
+                <p>Nykaa Man</p>
+                <p>Nykaa Fashion</p>
+                <p>Nykaa Pro</p>
+                <p>Nykaa femina <br> beauty awards <br> winners 2019</p>
+                <p>Sitemap</p>
+            </div>
+            <div>
+                <h3>Top Categories</h3>
+                <p>Makeup</p>
+                <p>Skin</p>
+                <p>Hair</p>
+                <p>Personal Care</p>
+                <p>Appliances</p>
+                <p>Mom and Baby</p>
+                <p>Wellness</p>
+                <p>Fragrance</p>
+                <p>Natura</p>
+                <p>Luxe</p>
+            </div>
+        </div>
+        <div id="box3">
+           
+            <div class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Free-shipping.svg" alt=""></div>
+                <div><p>FREE SHIPPING</p><br>
+                    <hr>
+                    <p>for orders above INR299</p>
+                </div>
+               
+               
+            </div>
+            <div  class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/return_accepted.svg" alt=""></div>
+                <div><p>EASY RETURNS</p><br>
+                    <hr>
+                    <p>15 Day Easy Returns For Most Products</p>
+                </div>
+            </div>
+            <div  class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Authenticity.svg" alt=""></div>
+                <div><p>AUTHENTIC <br> PRODUCTS</p><br>
+                    <hr>
+                    <p>Sourced Directly from <br> Brands/ Authorised Distributors</p>
+                </div>
+            </div>
+            <div  class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Brands.svg" alt=""></div>
+                <div><p>2400+ BRANDS</p><br>
+                    <hr>
+                    <p>Well Curated 1.9Lakh + Product</p>
+                </div>
+            </div>
+            <div id="box3a1" >
+                <div> <p>Show us some love ❤ on social media</p></div>
+                <div id="box3a12">
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-instagram-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-facebook-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-youtube-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-twitter-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-pinterest-filled.svg" alt="">
+                    </div>
+                </div>
+              
+                
+            </div>
+        </div>
+        <div id="box4">
+            <div id="box4a">
+                <div>  <p>Terms & Conditions </p>  </div>
+                <div><p>Shipping Policy </p> </div>
+                <div><p>Cancellation Policy </p> </div>
+                <div><p>  Privacy Policy</p> </div>
+            </div>
+           <div>
+            <p>© 2022 Nykaa E-Retail Pvt. Ltd. All Rights Reserved.</p>
+           </div>
+           
+           
+        </div>
+    </div>
+    
+      <!-- <---footer body ends--->  -->
+
+
+
 </body>
 </html>
 <script>
