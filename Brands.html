@@ -9,7 +9,7 @@
 <script src="https://kit.fontawesome.com/24c494a6b6.js"
 crossorigin="anonymous"></script>
 <style>
-      #topContainer{
+  #topContainer{
         display: grid;
       
         /* border: 1px solid red; */
@@ -63,17 +63,32 @@ crossorigin="anonymous"></script>
     #top2>div{
         margin-right: 30px;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 15px;
     }
     #top3>div:hover{
         cursor: pointer;
         color: red;
+    }
+    #top3>#offer>a:hover{
+     color: black;
+     
+    }
+    #top3>#offer>a{
+        color: white;
+        text-decoration: none;
     }
     #top2>div:hover{
         cursor: pointer;
         color: red;
         
      }
+     #top2 input{
+        
+         font-size: 15px;
+       
+     }
+     
+     
 
     
 #logo{
@@ -93,10 +108,28 @@ crossorigin="anonymous"></script>
     #top3>div{
        margin-right: 30px;
     }
+    
     #offer{
   background-color:  red;
   color: white;
+  padding: 0px 5px;
+  border-radius: 5px;
 }
+#top2>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top2>div>a:hover{
+        color: red;
+        }
+        #top1Right>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top1Right>div>a:hover{
+            color: red;
+        }
+
     
     body{
         background-color: 
@@ -276,19 +309,17 @@ crossorigin="anonymous"></script>
     }
 </style>
 <body>
-    <div id="topContainer">
-
-        <div id="top1">
+    <div id="top1">
         <div id="top1Left"> BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals </div>
         <div id="top1Right">
-              <div><i class="fa-solid fa-mobile-screen"></i>
-                <span>Get App  </span></div>    
+              <div><i class="fa-solid fa-mobile-screen"></i> <a href="get app.html">Get App </a>
+               </div>    
                      
         <div><i class="fa-solid fa-location-dot"></i>
             <span>Store & Events</span></div> 
         
-            <div><i class="fa-solid fa-gift"></i>
-                <span>Gift Card</span></div>
+            <div><i class="fa-solid fa-gift"></i> <a href="gift card.html">Gift Card</a>
+               </div>
             <div> <i class="fa-solid fa-circle-question"></i>
                 <span>Help</span></div> 
         </div>
@@ -298,22 +329,14 @@ crossorigin="anonymous"></script>
             <div> <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK47iYyT-3X758RkOppaeJ6z-1UPe_ehVqq-ldzFiA_Rw3Cwv_vQY_vk0MtNo7DsZg_Eg&usqp=CAU" alt="">   
             </div>
             <div>Categories</div>
-            <div>
-                <select name="" id=""> 
-                   <option value=""> Brands</option>
-                   <option value="" > <a href="footer .html">Pears</a>  </option>
-                   <option value="">MINI M.A.C</option>
-                   <option value="">Cetaphil</option>
-                </select>
-                </div>
+            <div><a href="Brands.html">Brands</a>  </div>
             <div>  Nykaa Fashion</div>
             <div>Beauty Advice</div>
             <div>Nykaa Network</div>
             <div><i class="fa-solid fa-magnifying-glass"></i><input type="text"  placeholder= "Search on Nykaa"></div>
-            <div id="signup"><i class="fa-solid fa-user"></i>
-        <span> <a href="signup.html"> Account</a> </span>
+            <div id="signup"><i class="fa-solid fa-user"></i><a href="signup.html"> Account</a> 
             </div>
-            <div> <i class="fa-solid fa-bag-shopping"></i></div>
+            <div> <i class="fa-solid fa-bag-shopping"></i>  <a href="cart.html">cart</a> </div>
         </div>
         
         <div id="top3">
@@ -330,11 +353,10 @@ crossorigin="anonymous"></script>
                 Men</div>
             <div>Fragrance</div>
             <div>LUXE</div>
-            <div id="offer">OFFERS</div>
+            <div id="offer"> <a href="offers.html"> OFFERS </a> </div>
         </div>
         
             </div>
-    <a href="cart.html"><button>cart</button></a>
     <h1>Stock Up on Bathing Essentials!</h1>
     <div class="upperbox">
         <img src="https://images-static.nykaa.com/uploads/bdc465fa-c9b4-43af-ae49-7c12fbb1b279.jpg?tr=w-1200,cm-pad_resize" alt="">
