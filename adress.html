@@ -146,21 +146,21 @@ margin-top: 20px;
     <p>select country</p>
    <p id="india">India</p>
     <hr>
-    <input type="text" name="" id="" placeholder="Enter Your Name">
+    <input type="text" name="" id="Name" placeholder="Enter Your Name">
     <hr>
 
     <input type="text" name="" id="email" placeholder="Enter Your Email">
 
     <p id="mobile">Mobile Number</p>
-    <input type="text" id="mNumber"placeholder="Enter Your Mobile Number" name="name" required
+    <input type="number" id="mNumber"placeholder="Enter Your Mobile Number" name="name" required
        minlength="10" maxlength="10" size="20">
     <hr>
 
-    <input type="text" id="mNumber"placeholder="Enter Your Postal Coder" name="name" required
+    <input type="text" id="pinCode"placeholder="Enter Your Postal Coder" name="name" required
        minlength="6" maxlength="6" size="20">
 <hr>
-    <input type="text" placeholder="Enter Your deatil Adress">
-<a href="payment.html"><div id="middleLast">Ship To this Adress  </div> </a>
+    <input type="text" id="adress" placeholder="Enter Your deatil Adress">
+<div id="middleLast">Ship To this Adress  </div> 
 
 </div>
 
@@ -175,8 +175,6 @@ margin-top: 20px;
 </body>
 </html>
 <script>
-    document.querySelector("#middleLast").addEventListener("click",adressfunction)
-var paymentDataArr=JSON.parse(localStorage.getItem("paymentData")) ||[]
 
 var cartData=JSON.parse(localStorage.getItem("cartData"))
 console.log(cartData)
@@ -184,18 +182,43 @@ console.log(cartData)
 document.querySelector("#length").innerText="Total Itmes :"+" "+cartData.Length
 document.querySelector("#total").innerText="Total Amount :"+" "+"RS"+" "+cartData.Total+"/-"
 
+
+
+    
+// var paymentDataArr=JSON.parse(localStorage.getItem("paymentData")) ||[]
+
+
+document.querySelector("#middleLast").addEventListener("click",adressfunction)
     function adressfunction()
     {
         // console.log("in")
         var userEmail=document.querySelector("#email").value 
         var userMobNumber=document.querySelector("#mNumber").value 
-      
-        var paymentDataObj={
+        var Name=document.querySelector("#Name").value
+        var PinCode=document.querySelector("#pinCode").value
+      var Adress=document.querySelector("#adress").value
+
+      var paymentDataObj={
             Email:userEmail,
             MobNumber:userMobNumber
         }
+        localStorage.setItem("paymentData",JSON.stringify(paymentDataObj))
+
+      if(userEmail=="" || userMobNumber=="" || Name=="" || PinCode=="" || Adress=="")
+      {
+          alert("please fill all Details")
+          
+      }
+      else {
+          
+        
+        window.location.href="payment.html"
+        
+     }
+  
 // paymentDataArr.push(paymentDataObj)
-   localStorage.setItem("paymentData",JSON.stringify(paymentDataObj))
-   location.reload()
+   
+  
     }
+    
 </script>
