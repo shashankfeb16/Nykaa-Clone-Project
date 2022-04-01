@@ -10,6 +10,7 @@
     <style>
         body{
             background-color: #f3f3f3;
+           
         }
         #topNav{
             width: 100%;
@@ -17,6 +18,7 @@
             /* border: 1px solid red; */
             background-color: white;
            display:flex;
+                font-size: 30x;
         }
         #topNav>div:nth-child(1){
             /* border: 1px solid blue; */
@@ -42,7 +44,7 @@
        }
        #container{
            width: 80%;
-           height: 400px;
+           /* height: 400px; */
           
            margin: auto;
            display: grid;
@@ -100,6 +102,21 @@ cursor: pointer;
            font-weight:bold;
            color: black;
        }
+       /* #cartData{
+           margin: auto;
+       } */
+       #cartData>div{
+           /* border: 1px solid red; */
+           font-size: 30px;
+           background-color: white;
+       }
+       #length{
+margin-top: 20px;
+
+       }
+       #total{
+           margin-top: 20px;
+       }
     </style>
 </head>
 <body>
@@ -147,10 +164,12 @@ cursor: pointer;
 
 </div>
 
-<div>cart
-<div></div>
-
+<div id="cartData">
+<div id="length"></div>
+<div id="total"></div>
 </div>
+
+
 </div>
 
 </body>
@@ -158,6 +177,13 @@ cursor: pointer;
 <script>
     document.querySelector("#middleLast").addEventListener("click",adressfunction)
 var paymentDataArr=JSON.parse(localStorage.getItem("paymentData")) ||[]
+
+var cartData=JSON.parse(localStorage.getItem("cartData"))
+console.log(cartData)
+
+document.querySelector("#length").innerText="Total Itmes :"+" "+cartData.Length
+document.querySelector("#total").innerText="Total Amount :"+" "+"RS"+" "+cartData.Total+"/-"
+
     function adressfunction()
     {
         // console.log("in")

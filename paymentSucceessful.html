@@ -132,10 +132,11 @@
 </html>
 <script>
     var paymentDataObj=JSON.parse(localStorage.getItem("paymentData")) 
-    
+    var cartData=JSON.parse(localStorage.getItem("cartData"))
+console.log(cartData)
        document.querySelector("#mobile").innerText=paymentDataObj.MobNumber
        document.querySelector("#email").innerText=paymentDataObj.Email
-    //    document.querySelector("#totalAmount").innerText=paymentDataObj.
+       document.querySelector("#totalAmount").innerText=cartData.Total
 //    document.querySelector("#mobile").append(mobile)
 //    document.querySelector("#email").append(email)
 </script>
