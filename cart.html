@@ -97,19 +97,26 @@
 </html>
 <script>
     var pearsdata = JSON.parse(localStorage.getItem("data"));
+    var nykaadata = JSON.parse(localStorage.getItem("data1"));
     var total = pearsdata.reduce(function(sum,e,i,arr){
         return sum+e.price;
     },0);
-    var length = pearsdata.length
+    var total1 = nykaadata.reduce(function(sum,e,i,arr){
+        return sum+e.price;
+    },0);
+    var finalprice = total+total1;
+    var length = pearsdata.length;
+    var length1 = nykaadata.length;
+    var finallength = length+length1;
 
     var cartData={
-        Total:total,
-        Length:length,
+        Total:finalprice,
+        Length:finallength,
     }
 localStorage.setItem("cartData",JSON.stringify(cartData))
 
 
-    document.querySelector("#total>h4").innerText = `Total items ${length}  & Total amount is RS ${total}`;
+    document.querySelector("#total>h4").innerText = `Total items ${finallength}  & Total amount is RS ${finalprice}`;
     pearsdata.map(function(e,i){
         var box = document.createElement("div");
         var image = document.createElement("img");
@@ -132,6 +139,29 @@ localStorage.setItem("cartData",JSON.stringify(cartData))
         pearsdata.splice(i,1);
         console.log(pearsdata)
         localStorage.setItem("data",JSON.stringify(pearsdata));
+        window.location.reload();
+    }
+    nykaadata.map(function(e,i){
+        var box = document.createElement("div");
+        var image = document.createElement("img");
+        image.src = e.img_Url
+        var name = document.createElement("h4");
+        name.innerText = e.name;
+        var pri = document.createElement("p");
+        pri.innerText = "MRP"+": "+ e.price;
+         var rat = document.createElement("p");
+        rat.innerText = "Rating"+"-"+e.rating;
+        var btn = document.createElement("button");
+        btn.innerText = "Remove";
+        btn.addEventListener("click",function(){
+            removeItem1(e,i);
+        });
+        box.append(image,name,pri,rat,btn);
+        document.querySelector("#container").append(box);
+    });
+    function removeItem1(e,i){
+        nykaadata.splice(i,1);
+        localStorage.setItem("data1",JSON.stringify(nykaadata));
         window.location.reload();
     }
 </script>
