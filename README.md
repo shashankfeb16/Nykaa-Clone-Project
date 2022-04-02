@@ -18,7 +18,7 @@
 
 1.Open index.html on live server(using VS code live server).
 
-![2021-11-11 (5)](https://user-images.githubusercontent.com/61643245/141407710-c9aa55bc-6997-4cc6-81c7-1a8e18e905a2.png)
+![2021-11-11 (5)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/Screenshot%20(41).png)
 
 ### Sign in Page:
 
