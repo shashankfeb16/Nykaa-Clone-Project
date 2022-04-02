@@ -12,7 +12,7 @@
 * Bootstrap
 
 
-#Key Highlights of our project.
+# Key Highlights of our project.
 #### In order to useour website you need to follow the below steps.
 ### Landing Page:
 
