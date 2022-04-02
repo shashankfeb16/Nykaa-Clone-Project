@@ -115,7 +115,7 @@
 
 8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
 
-![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/store%20image.jpg)
+![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/store.png)
 
 
 ### Gift Crad Page: :
