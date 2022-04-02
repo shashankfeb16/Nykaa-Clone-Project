@@ -76,7 +76,7 @@
 ### Faisal Mirza :boy:
 >  [Linkedin](https://www.linkedin.com/in/faisal-baig-mirza-6a48a1155/)
 
->  [GitHub](https://github.com/Ankit-Mishra07)
+>  [GitHub](https://github.com/faisal1205)
 
 ### Pavan Gopalrao Ambulkar :boy:
 > [Linkedin](https://www.linkedin.com/in/gaurav-maihuria/)
