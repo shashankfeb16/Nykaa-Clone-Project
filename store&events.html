@@ -4,19 +4,223 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="//images-static.nykaa.com/media/favicon/default/nykaa_favicon_a.png" type="image/x-icon">
+    <title>Store & Events</title>
     <script
-      src="https://kit.fontawesome.com/24c494a6b6.js"
-      crossorigin="anonymous"
-    ></script>
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
     <style>
-        /* footer start */
-        #box{
+          #topContainer{
+        display: grid;
+      
+        /* border: 1px solid red; */
+        
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows:auto;
+       background-color: white;
+     
+    }
+    #top1{
+        /* border: 1px solid black; */
+       padding: 10px;
+        background-image: url(https://adn-static1.nykaa.com/media/wysiwyg/2021/common-strip.jpg);
+        display: flex;
+        justify-content: space-around;
+        /* padding-top: 5px; */
+    }
+  #top1Left{
+      padding-top: 5px;
+      color: black;
+     
+  }
+  #top1Left>a{
+      text-decoration: none;
+      color: black;
+  }
+  #top1Left>a:hover{
+      cursor: pointer;
+      color: red;
+  }
+    
+    #top1Right{
+        display: flex;
+        justify-content: space-evenly;
+       /* border: 1px solid blue; */
+       width: 40%;  
+      
+    }
+    #top1Left:hover{
+       color: red;
+       cursor: pointer;
+    }
+    #top1Right>div:hover{
+        color: red;
+        cursor: pointer;
+    }
+  #top1Right>div{
+      margin: auto;
+      
+  }
+  #top2{
+       
+        border-bottom: 1px solid rgb(241, 220, 220);
+        padding: 13px;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    #top2>div{
+        margin-right: 30px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #top3>div:hover{
+        cursor: pointer;
+        color: red;
+    }
+    #top3>#offer>a:hover{
+     color: black;
+     
+    }
+    #top3>#offer>a{
+        color: white;
+        text-decoration: none;
+    }
+    #top2>div:hover{
+        cursor: pointer;
+        color: red;
+        
+     }
+     #top2 input{
+        
+         font-size: 15px;
+       
+     }
+     
+     
+
+    
+#logo{
+    width: 90px;
+    height: 40px;
+}
+#top3{
+    display: flex;
+    justify-content:center;
+    padding: 20px ;
+    font-size: 15px;
+    color: gray;
+    
+    
+}
+
+    #top3>div{
+       margin-right: 30px;
+    }
+    #top3>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top3>div>a:hover{
+        color: red;
+        }
+    
+    #offer{
+  background-color:  red;
+  color: white;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+#top2>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top2>div>a:hover{
+        color: red;
+        }
+        #top1Right>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top1Right>div>a:hover{
+            color: red;
+        }
+
+
+/* header style end */
+#mainstore{
+    width: 75%;
+    margin: auto;
+}
+#mainstore>img{
+    width: 100%;
+}
+
+#store{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 75%;
+   
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 2px 0px 0px 0px;
+   
+}
+#store1{
+    display: flex;
+}
+#store1a{
+    
+    width: 35%;
+  
+    text-align: left;
+    padding: 10px;
+}
+#store1b{
+    margin-top: -8px;
+    width: 65%;
+   
+   
+}
+#store1a input{
+    text-align: center;
+   width: 40%;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    
+
+}
+h3{
+    margin-bottom: -10px;
+}
+button{
+    padding: 10px 40px;
+    color: #fc2f80;
+    border: 1px solid #fc2f80;
+    background-color: white;
+    font-weight: bold;
+   margin: 10px 0px;
+   border-radius: 2px;
+}
+button+p{
+    color: #fc2f80;
+}
+#store1b>img{
+    width: 100%;
+    height: 100%;
+}
+ /* footer start */
+ #box{
             height:800px ;
             width: 100%;
-          margin-top: 50px;
+          
             display: flex;
             flex-direction: column;
+            margin-top: 50px;
           
           
         }
@@ -118,11 +322,106 @@
             
         }
         /* footer end */
-       
+
     </style>
 </head>
 <body>
-    <!-- footer start -->
+    <div id="topContainer">
+
+        <!-- header start -->
+
+<div id="top1">
+<div id="top1Left"> <a href="offers.html">BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals </a></div>
+<div id="top1Right">
+      <div><i class="fa-solid fa-mobile-screen"></i> <a href="get app.html">Get App </a>
+       </div>    
+             
+<div><i class="fa-solid fa-location-dot"></i> <a href="store&events.html">Store & Events</a>
+   </div> 
+
+    <div><i class="fa-solid fa-gift"></i> <a href="gift card.html">Gift Card</a>
+       </div>
+    <div> <i class="fa-solid fa-circle-question"></i> <a href="help.html">Help</a>
+       </div> 
+</div>
+</div>
+
+<div id="top2">
+    <div>   <a href="homepage.html"><img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK47iYyT-3X758RkOppaeJ6z-1UPe_ehVqq-ldzFiA_Rw3Cwv_vQY_vk0MtNo7DsZg_Eg&usqp=CAU" alt=""> </a>
+    </div>
+    <div>Categories</div>
+    <div><a href="brands.html">Brands</a>  </div>
+    <div> <a href="nykaa.html"> Nykaa Fashion</a></div>
+    <div>Beauty Advice</div>
+    <div>Nykaa Network</div>
+    <div><i class="fa-solid fa-magnifying-glass"></i><input type="text"  placeholder= "Search on Nykaa"></div>
+    <!-- <div id="signup"><i class="fa-solid fa-user"></i><a href="signup.html"> Account</a>  -->
+        <div id="signup"><i class="fa-solid fa-user"></i><a href="homepage.html">user</a> 
+    </div>
+    <div> <i class="fa-solid fa-bag-shopping"></i>  <a href="cart.html">cart</a> </div>
+    <div><a href="index.html">Logout</a></div>
+
+</div>
+
+<div id="top3">
+   
+    <div><a href="makeup.html">Makeup</a></div>
+    <div><a href="skin.html">Skin</a></div>
+    <div><a href="hair.html">Hair</a></div>
+    <div><a href="appliances.html">Appliances</a></div>
+    <div><a href="personal care.html">Personal Care</a></div>
+    <div><a href="natural.html">Natural</a></div>
+    <div><a href="mom & baby.html">Mom & Baby</a></div>
+    <div><a href="health & wellness.html">Health & Wellness</a></div>
+    <div> <a href="men.html">Men</a></div>
+    <div><a href="fragrance.html">Fragrance</a></div>
+    <div><a href="LUXE.html">LUXE</a></div>
+    <div id="offer"> <a href="offers.html"> OFFERS </a> </div>
+</div>
+
+    </div>
+
+
+        <!-- header end -->
+        <div id="mainstore">
+            <img src="https://images-static.nykaa.com/uploads/7c967d8e-648c-447f-b2af-fdf34d74d32f.jpg" alt="">
+        </div>
+
+        <div id="store">
+
+            <h2>Find A Nykaa Store Near You</h2>
+            <hr>
+            <div id="store1">
+                <div id="store1a">
+                    <input type="text" placeholder="Serach City">
+                    <input type="text" placeholder="Brand">
+                    <hr>
+                    <h3>Nykaa Luxe - Infiniti Mall</h3>
+                    <p>Open : 11:00 AM - 09:30 PM</p>
+                    <p>Ground Floor, Unit No 14,New Link Road, Oshiwara,Andheri West, Mumbai - 400053 Ph: 022-22762722</p>
+                    <button>GET DIRECTIONS>> </button>
+                    <p>Store Details</p>
+                    <hr>
+                    <h3>Nykaa On Trend - Seawoods Grand Central Mall</h3>
+                    <p>Open : 11:00 AM - 09:30 PM</p>
+                    <p>Upper Ground floor, Plot No.R-1, Sector 40, Seawoods Railway Station, Navi Mumbai- 400706 Ph: 022-22762722</p>
+                    <button>GET DIRECTIONS>> </button>
+                    <p>Store Details</p>
+                    <hr>
+                </div>
+            <div id="store1b">
+                <img src="store image.jpg" alt="">
+            </div>
+
+            </div>
+            
+            
+
+
+        </div>
+
+
+         <!-- footer start -->
     <div id="box">
         <div id="box1">
              <!-- <div><p>Connection <span> <i class="fa-solid fa-greater-than"></i></span></p></div> -->
@@ -264,7 +563,5 @@
            
         </div>
     </div>
-    <!-- footer end -->
-    
 </body>
 </html>
