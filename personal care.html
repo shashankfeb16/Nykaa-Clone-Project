@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="icon" href="//images-static.nykaa.com/media/favicon/default/nykaa_favicon_a.png" type="image/x-icon">
-    <title>Brands</title>
+    <title>Personal Care</title>
 </head>
 <script src="https://kit.fontawesome.com/24c494a6b6.js"
 crossorigin="anonymous"></script>
 <style>
-  #topContainer{
+   #topContainer{
         display: grid;
       
         /* border: 1px solid red; */
@@ -151,7 +150,6 @@ crossorigin="anonymous"></script>
 
 
 /* header style end */
-
     
     body{
         background-color: 
@@ -386,10 +384,9 @@ crossorigin="anonymous"></script>
 
     </div>
 
-    <!-- header end -->
-    <h1>Stock Up on Bathing Essentials!</h1>
+    <h1>Sirona</h1>
     <div class="upperbox">
-        <img src="https://images-static.nykaa.com/uploads/bdc465fa-c9b4-43af-ae49-7c12fbb1b279.jpg?tr=w-1200,cm-pad_resize" alt="">
+        <img src="https://images-static.nykaa.com/uploads/8868ac94-1091-4646-a8b9-2eb0c116728b.jpg?tr=w-1200,cm-pad_resize" alt="">
     </div>
     <h2>ALL Products</h2>
   
@@ -438,6 +435,8 @@ crossorigin="anonymous"></script>
        </div>
        <div id="container"></div>
    </div>
+
+
    <div id="box">
     <div id="box1">
          <!-- <div><p>Connection <span> <i class="fa-solid fa-greater-than"></i></span></p></div> -->
@@ -585,284 +584,117 @@ crossorigin="anonymous"></script>
 <script>
 
     window.addEventListener("load",function(){
-        displaydata(pearsdata);
+        displaydata(personalcaredata);
     })
 
     function handlepri(){
         var selected = document.querySelector("#selected").value
         if(selected=="lth"){
-        pearsdata.sort(function(a,b){
+        personalcaredata.sort(function(a,b){
         return a.price-b.price
         });
-        displaydata(pearsdata);
+        displaydata(personalcaredata);
         }
         if(selected=="htl"){
-            pearsdata.sort(function(a,b){
+            personalcaredata.sort(function(a,b){
                 return b.price-a.price
             });
-            displaydata(pearsdata);
+            displaydata(personalcaredata);
         }
     }
     function handlerate(){
         var selected = document.querySelector("#selected1").value
         if(selected=="lth"){
-            pearsdata.sort(function(a,b){
+            personalcaredata.sort(function(a,b){
                 return a.rating-b.rating
             });
-            displaydata(pearsdata);
+            displaydata(personalcaredata);
         }
         if(selected=="htl"){
-            pearsdata.sort(function(a,b){
+            personalcaredata.sort(function(a,b){
                 return b.rating-a.rating
             });
-            displaydata(pearsdata);
+            displaydata(personalcaredata);
         }
     }
-    var pearsdata = [{
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/2/12367_s1-8901030707841_1.jpg",
-        name: "Pears Pure & Gentle Body Wash With Free Loofah",
-        price: 125,
-        rating: 4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/17432_h-8901030707865n.jpg",
-        name: "Pears Oil Clear & Glow Body Wash 250ML pack",
-        price: 147,
-        rating: 4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/17431_h-8901030707858.jpg",
-        name: "Pears Soft & Fresh Body Wash 250ML pack",
-        price: 145,
-        rating: 5, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/e/c/ec8472917581_17583.jpg",
-        name: "Pears Naturale Brightening Pomegranate + Nourishing",
-        price: 276,
-        rating: 5, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/3/3/33fc465NYPRS00000015_1.jpg",
-        name: "Pears Soft & Fresh + Oil Clear Bodywash Combo",
-        price: 294,
-        rating: 5, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/7/1/7120e6517581_h-8901030753985.jpg",
-        name: "Pears Naturale Brightening Pomegranate Bodywash",
-        price: 138,
-        rating: 4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/a/a/aab0e6517582_h-8901030753992.jpg",
-        name: "Pears Naturale Detoxifying Aloevera Bodywash",
-        price: 138,
-        rating: 5, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/17432_1.jpg",
-        name: "Pears Oil Clear & Glow Shower Gel Pack of 2",
-        price: 125,
-        rating: 4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/17530_h-8901030729348.jpg",
-        name: "Liril Berry Blast Body Wash 250ML pack",
-        price: 197,
-        rating: 4.3, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/v/w/vwas_pexpinth.jpg",
-        name: "VWash Plus Expert Intimate Hygiene Liquid Wash Enriched With Shea Butter Oil 250ML pack",
-        price: 170,
-        rating: 4.6, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/8/f/8ff8e6017660_h-8901030815911.jpg",
-        name: "VWash Plus Expert Intimate Hygiene Liquid Wash Enriched With Shea Butter Oil 100ML pack",
-        price: 170,
-        rating: 4.6, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/c/7/c75eb1111111002029_hero.jpg",
-        name: "Â Dove Exfoliating Body Polish Scrub with Pomegranate Seeds and Shea Butter",
-        price: 594,
-        rating: 4.6, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/8/0/80a4e6f8901030756351.jpg",
-        name: "Love Beauty & Planet Natural Tea Tree Oil & Vetiver Aroma Body Wash pack of 1 (400ml)",
-        price: 383,
-        rating: 4.6, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/b/d/bdc78a544066_h-8901030838903.jpg",
-        name: "Dove Gentle Exfoliating Beads Body Wash For Softer Smoother Skin",
-        price: 400,
-        rating: 4.6, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/5/15d583d17602_h-8901030756320.jpg",
-        name: "Love Beauty & Planet Natural Murumuru Butter & Rose Aroma Body Wash",
-        price: 405,
-        rating: 4.6, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/3/3/33214ad11111002005_new_1.jpg",
-        name: "Dove Exfoliating Body Polish Scrub with Crushed Macadamia and Rice Milk",
-        price: 594,
-        rating: 4.7, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/17663_s1-8901030815935.jpg",
-        name: "VWash Plus Expert Intimate Hygiene Liquid Wash",
-        price: 462,
-        rating: 4.6, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/0/3/030df8e6281006485457_new_1.jpg",
-        name: "Pears Pure & Gentle Body Wash Original",
+    var personalcaredata = [{
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/9/1/91df1fd8908004343302_new1.jpg",
+        name: "Sirona Reusable Menstrual Cup with FDA Compliant Medical Grade Silicone - Medium",
         price: 279,
+        rating: 4.4, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/f/b/fbd7e04siron00000060__1_.jpg",
+        name: "Sirona Hydrating Body Lotion for Men & Women with Cocoa Butter & Blueberry Fruit Extract",
+        price: 249,
+        rating: 5, 
+    },
+    {
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/3/6/36e1365siron00000005_new1.jpg",
+        name: "Sirona Blink and Glow Face Razor for Women - 3 Razors (3 Pcs)",
+        price: 209,
         rating: 4.6, 
     },
     {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/7/174be6017661_h-8901030815928.jpg",
-        name: "Pears Pure & Gentle Body Wash Original",
-        price: 279,
-        rating: 4.6, 
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/d/f/dfe8e04siron00000050__1_.jpg",
+        name: "Sirona Natural Back and Bum Cream for Women - Dermatologically Tested",
+        price: 349,
+        rating: 5, 
     },
     {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/2/12367_s1-8901030707841_1.jpg",
-        name: "Pears Pure & Gentle Body Wash With Free Loofah",
-        price: 125,
-        rating: 4, 
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/a/5/a52844a8906103793820_1.jpg",
+        name: "Sirona 4 Blade Hair Removal Cartridge Razor for Women (1 Pc)",
+        price: 229,
+        rating: 5, 
     },
     {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/e/a/ea956b5THEDE00000063.jpg",
-        name: "The Derma Co. 15% Aha + 1% Bha Beginner Face Peeling Solution For 10-minute Weekly Exfoliation",
-        price: 125,
-        rating: 4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/c/0/c0296b5THEDE00000010.jpg",
-        name: "The Derma Co. 2% Kojic Acid Face Cream For Pigmentation(30g)",
-        price: 474,
-        rating: 4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/5/d/5d436b5THEDE00000052.jpg",
-        name: "The Derma Co 1% Salicylic Acid Gel Face Wash With Salicylic Acid & Witch Hazel For Active Acne",
-        price: 284,
-        rating: 4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/b/7/b7286b5THEDE00000015.jpg",
-        name: "The Derma Co. 3% AHA-BHAÂ Foaming Daily Face Wash(100ml)",
-        price: 332,
-        rating: 4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/d/1d86f188906087776017__1_.jpg",
-        name: "The Derma Co Micro-tip Salicylic Acid Acne Patches With Hydrocolloid For Clean & Clear Skin - 24 Patches",
-        price: 569,
-        rating: 4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/e/1/e1c46248901030733680.jpg",
-        name: "Vaseline Derma Care Advanced Repair Body Lotion(100ML)",
-        price: 140,
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/9/c/9c705be8906103791710_new1.jpg",
+        name: "Sirona Natural Intimate Wash for Men & Women with 5 Magical Herbs Olive Tea Tree & Jojoba Oil",
+        price: 289,
         rating: 4.5, 
     },
     {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/2/d/2d7579a8906087774495_pr__1_.jpg",
-        name: "The Derma Co. 2% Salicylic Acid Mask For Acne & Blemish Prone Skin(50gm)",
-        price: 474,
-        rating: 4.4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/4/c/4c1997enychrys000004_1.jpg",
-        name: "Cheryl's Cosmeceuticals DermaShade SPF 30 Spray(50ml)",
-        price: 575,
-        rating: 4.3, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/c/6/c6806b5THEDE00000039.jpg",
-        name: "The Derma Co 3% Niacinamide Foaming Daily Face Wash For Acne Marks",
-        price: 332,
-        rating: 4.4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/9/c/9c0a7baderma_dmicro_1.jpg",
-        name: "Dermalogica Daily Microfoliant Face Scrub Mini(13gm)",
-        price: 975,
-        rating: 4.4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/9/8/982bdd7NYKBNDCTP0009_1.jpg",
-        name: "Cetaphil Cleansing + Hydrating Regime pack of 2",
-        price: 675,
-        rating: 4.4, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/2/4/24e638aNYCETA0000010-new1.jpg",
-        name: "Cetaphil Gentle Skin Cleanser pack of 1 (125ml)",
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/3/5/35595558906103790317_new1.jpg",
+        name: "Sirona Natural Exfoliating Face Wash Facial Cleaner (125ml)",
         price: 275,
         rating: 4.5, 
     },
     {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/3/5/35f538a9318637043293-new1.jpg",
-        name: "Cetaphil Baby Gentle Wash & Shampoo pack of 1 (125ml)",
-        price: 618,
-        rating: 4.5, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/5/15bd38aNYCETA0000005-new1.jpg",
-        name: "Cetaphil Moisturising Cream Pack of 1 (80gm)",
-        price: 419,
-        rating: 4.5, 
-    },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/7/7/774038a8906005273437-new1.jpg",
-        name: "Cetaphil Moisturising Cream pavk of 1 (250gm)",
-        price: 884,
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/8/9/8908004343470_1__1.jpg",
+        name: "Sirona Under Arm Sweat Pads for Women - Pack of 12",
+        price: 145,
         rating: 4.4, 
     },
     {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/9/8/984238aCETAP00000004-new1.jpg",
-        name: "Cetaphil Bright Healthy Radiance Night Comfort Cream (50gm)",
-        price: 903,
-        rating: 4.3, 
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/0/1/01dfe04siron00000059__1_.jpg",
+        name: "Kayali Elixir Eau De Parfum Travel Spray (10ml)",
+        price: 2200,
+        rating: 3.6, 
     },
     {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/3/f/3f5838a3499320010993-new1.jpg",
-        name: "Cetaphil Sun SPF 30 Light Gel pack of 1 (100ml)",
-        price: 1035,
-        rating: 4.3, 
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/w/h/white_flower_1.jpg",
+        name: "Sirona Natural Gel Based Hydrating Body Wash for Men Gentle Cleansing & Deep Hydration",
+        price: 249,
+        rating: 5, 
     },
     {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/3/e/3e3638a8906005273420-new1.jpg",
-        name: "Cetaphil Gentle Skin Cleanser pack of 1 (1 ltr)",
-        price: 975,
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/8/6/86b21fd8908004343890_new1.jpg",
+        name: "Sirona Reusable Menstrual Cup with FDA Compliant Medical Grade Silicone - Small",
+        price: 279,
         rating: 4.4, 
     },
     {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/7/5/752b38aCETAP00000006-new1.jpg",
-        name: "Cetaphil Bright Healthy Radiance Refresh Toner (150ml)",
-        price: 903,
-        rating: 4.4, 
+        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/e/2/e2e6555siron00000051_new1.jpg",
+        name: "Sirona Blink and Glow Face Razor for Women - 1 Pc",
+        price: 89,
+        rating: 4.9, 
     },
-    {
-        image_Url: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/d/c/dc9938a9318637043316-new1.jpg",
-        name: "Cetaphil Baby Daily Lotion With Shea Butter pack of 1 (400ml)",
-        price: 693,
-        rating: 4.5, 
-    },]
+        ]
    
-   var pearscart = JSON.parse(localStorage.getItem("data")) || [];
-  function displaydata(pearsdata){
+   var personalcarecart = JSON.parse(localStorage.getItem("data")) || [];
+  function displaydata(personalcaredata){
       document.querySelector("#container").innerHTML = "";
-    pearsdata.map(function(e){
+    personalcaredata.map(function(e){
        var box = document.createElement("div");
        var img = document.createElement("img"); 
        img.src = e.image_Url;
@@ -882,9 +714,9 @@ crossorigin="anonymous"></script>
    });
   }
    function addtocart(e){
-        pearscart.push(e);
-        localStorage.setItem("data",JSON.stringify(pearscart));
+        personalcarecart.push(e);
+        localStorage.setItem("data",JSON.stringify(personalcarecart));
         alert("Item added to cart");
-        console.log(pearscart);
+        console.log(personalcarecart);
    }
 </script>
