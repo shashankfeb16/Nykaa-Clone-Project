@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="//images-static.nykaa.com/media/favicon/default/nykaa_favicon_a.png" type="image/x-icon">
+    <title>Get App</title>
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+    <style>
+        
+        #topContainer{
+        display: grid;
+      
+        /* border: 1px solid red; */
+        
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows:auto;
+       background-color: white;
+     
+    }
+    #top1{
+        /* border: 1px solid black; */
+       padding: 10px;
+        background-image: url(https://adn-static1.nykaa.com/media/wysiwyg/2021/common-strip.jpg);
+        display: flex;
+        justify-content: space-around;
+        /* padding-top: 5px; */
+    }
+  #top1Left{
+      padding-top: 5px;
+      color: black;
+     
+  }
+  #top1Left>a{
+      text-decoration: none;
+      color: black;
+  }
+  #top1Left>a:hover{
+      cursor: pointer;
+      color: red;
+  }
+    
+    #top1Right{
+        display: flex;
+        justify-content: space-evenly;
+       /* border: 1px solid blue; */
+       width: 40%;  
+      
+    }
+    #top1Left:hover{
+       color: red;
+       cursor: pointer;
+    }
+    #top1Right>div:hover{
+        color: red;
+        cursor: pointer;
+    }
+  #top1Right>div{
+      margin: auto;
+      
+  }
+  #top2{
+       
+        border-bottom: 1px solid rgb(241, 220, 220);
+        padding: 13px;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    #top2>div{
+        margin-right: 30px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #top3>div:hover{
+        cursor: pointer;
+        color: red;
+    }
+    #top3>#offer>a:hover{
+     color: black;
+     
+    }
+    #top3>#offer>a{
+        color: white;
+        text-decoration: none;
+    }
+    #top2>div:hover{
+        cursor: pointer;
+        color: red;
+        
+     }
+     #top2 input{
+        
+         font-size: 15px;
+       
+     }
+     
+     
+
+    
+#logo{
+    width: 90px;
+    height: 40px;
+}
+#top3{
+    display: flex;
+    justify-content:center;
+    padding: 20px ;
+    font-size: 15px;
+    color: gray;
+    
+    
+}
+
+    #top3>div{
+       margin-right: 30px;
+    }
+    #top3>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top3>div>a:hover{
+        color: red;
+        }
+    
+    #offer{
+  background-color:  red;
+  color: white;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+#top2>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top2>div>a:hover{
+        color: red;
+        }
+        #top1Right>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top1Right>div>a:hover{
+            color: red;
+        }
+
+
+/* header style end */
+
+
+
+#container{
+    height: 550px;
+    width:100%;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ecbcc8;
+    display: flex;
+    box-sizing: border-box;
+    padding: 60px;}
+
+#container>div{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    /* margin-top: 60px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border:1px solid black; */
+}
+#container>div>img{
+    width: 70%;
+    height: 100%;
+}
+#container>div>h1{
+     margin-right: 35px;
+     font-size: 40px;
+     margin-bottom: 0px;
+     color: #3f414d;
+}
+#container>div>p{
+    font-size: 20px;
+    margin-top: 5px;
+    /* letter-spacing: 1px; */
+    color: #3f414d;
+}
+#container>div>h3{
+    font-size: 22px;
+    color: #3f414d;
+}
+#box{
+    width: 40%;
+    height: 40px;
+}
+.buttonIn {
+        width: 300px;
+        position: relative;
+    }
+      
+    input {
+        margin: 0px;
+        padding: 0px;
+        width: 340px;
+        outline: none;
+        height: 50px;
+        border: none;
+    }
+      
+    button {
+        position: absolute;
+        top: 0;
+        margin-top: 3px;
+        right: 0px;
+        z-index: 2;
+        border: none;
+        top: 2px;
+        height: 40px;
+        cursor: pointer;
+        color: white;
+        background-color: grey;
+        transform: translateX(2px);
+        width: 90px;
+        margin-right:0px;
+        border-radius: 10px;
+    }
+    #help-text{
+        margin-top: 20px;
+        font-size: 25px;
+        color: #3f414d;
+    }
+    .flex {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.flex {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.flex {
+ display: flex;
+ align-items: center;
+ justify-content: left;
+}
+
+
+ .app-btn {
+  width: 45%;
+  max-width: 160px;
+  color: #fff;
+  margin: 20px 10px;
+  text-align: left;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+ }
+  .blu {
+   background-color: #101010;
+   transition: background-color 0.25s linear;
+  }
+   .app-btn:hover {
+    background-color: #454545;
+   }
+  
+  i {
+   width: 20%;
+   text-align: center;
+   font-size: 28px;
+   margin-right: 7px;
+  }
+  .big-txt {
+   font-size: 17px;
+   text-transform: capitalize;
+  }
+ 
+
+
+  /* footer start */
+  #box{
+            height:800px ;
+            width: 100%;
+          margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+          
+          
+        }
+        #box1{
+         
+           justify-content: space-around;
+           padding: 30px;
+            display: flex;
+            align-items: center;
+            background-color: #3f414d;
+            color: white;
+            
+
+        }
+        #box2{
+            
+           
+            display: flex;
+            padding-left: 200px;
+            color: white;
+            background-color: #8c8d94;
+            padding-top: 30px;
+        
+        }
+        #box3{
+          
+           
+            display: flex;
+           justify-content: center;
+        }#box4{
+           
+           
+           text-align: center;
+           background-color: #fc2779;
+           color: white;
+           font-size: 15px;padding: 6px;
+           
+
+        }
+        #email{
+            border: 1px #3f414d;
+            border-bottom: 1px solid white;
+            background-color:#3f414d ;
+            color: white;
+        }
+        #box1 img{
+            height: 40px;
+            width: 120px;
+          
+        }
+        #box1a{
+            font-size: 20px;
+        }
+        
+        #box1a > button{
+            background-color:#3f414d ;
+            color: white;
+            border-color: white;
+        }
+        /* .......box2........ */
+        #box2 div{
+            padding-right: 140px;
+           
+        }
+        #box4 div{
+            margin-right: 20px;
+        }
+        #box4a{
+            display: flex;
+            justify-content: center;
+            margin-bottom: -10px;
+        }
+        .box3a {
+         
+          display: flex;
+          justify-content: space-between;
+         width: 15%;
+          padding: 20px;
+          margin: 50px 0px;
+          font-size: 15px;
+        }
+        .box3a img{
+           margin-right: 20px;
+           margin-top: 20px;
+        }
+        .box3a p{
+            margin-bottom: -20px;
+        }
+        #box3a1{
+            width: 12%;
+          padding: 20px;
+          margin: 50px 0px;
+          font-size: 15px;
+          text-align: center;
+        }
+        #box3a12{
+            display: flex;
+            justify-content: space-around
+            
+        }
+        /* footer end */
+
+    </style>
+</head>
+<body>
+    <div id="topContainer">
+
+        <!-- header start -->
+
+<div id="top1">
+<div id="top1Left"> <a href="offers.html">BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals </a></div>
+<div id="top1Right">
+      <div> <a href="get app.html">Get App </a>
+       </div>    
+             
+<div><a href="store&events.html">Store & Events</a>
+   </div> 
+
+    <div> <a href="gift card.html">Gift Card</a>
+       </div>
+    <div> <a href="help.html">Help</a>
+       </div> 
+</div>
+</div>
+
+<div id="top2">
+    <div>   <a href="homepage.html"><img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK47iYyT-3X758RkOppaeJ6z-1UPe_ehVqq-ldzFiA_Rw3Cwv_vQY_vk0MtNo7DsZg_Eg&usqp=CAU" alt=""> </a>
+    </div>
+    <div>Categories</div>
+    <div><a href="brands.html">Brands</a>  </div>
+    <div> <a href="nykaa.html"> Nykaa Fashion</a></div>
+    <div>Beauty Advice</div>
+    <div>Nykaa Network</div>
+    <div><input type="text"  placeholder= "Search on Nykaa"></div>
+    <!-- <div id="signup"><i class="fa-solid fa-user"></i><a href="signup.html"> Account</a>  -->
+        <div id="signup"><a href="homepage.html">user</a> 
+    </div>
+    <div> <a href="cart.html">cart</a> </div>
+    <div><a href="index.html">Logout</a></div>
+
+</div>
+
+<div id="top3">
+   
+    <div><a href="makeup.html">Makeup</a></div>
+    <div><a href="skin.html">Skin</a></div>
+    <div><a href="hair.html">Hair</a></div>
+    <div><a href="appliances.html">Appliances</a></div>
+    <div><a href="personal care.html">Personal Care</a></div>
+    <div><a href="natural.html">Natural</a></div>
+    <div><a href="mom & baby.html">Mom & Baby</a></div>
+    <div><a href="health & wellness.html">Health & Wellness</a></div>
+    <div> <a href="men.html">Men</a></div>
+    <div><a href="fragrance.html">Fragrance</a></div>
+    <div><a href="LUXE.html">LUXE</a></div>
+    <div id="offer"> <a href="offers.html"> OFFERS </a> </div>
+</div>
+
+    </div>
+
+    <!-- header end -->
+
+    <div id="container">
+        <!-- <div><img src="https://www.nykaa.com/assets/desktop/images/install_app/pop_img.png"/></div> -->
+        <div >
+        <h1>BEAUTY TO GO!</h1>
+        <p>Download the Nykaa App for the best beauty<br> products and online offers!</p>
+        <h3>GET DOWNLOAD LINK VIA SMS</h3>
+        <!-- <input id="box" type="text" placeholder="Enter Your Mobile Number"> -->
+        <div class="buttonIn">
+         <input type="tel" id="mob" placeholder="Enter Your Mobile Number" name="mob" size="10" value>
+         <button id="Submit">Send Link</Link></button>
+         <!-- <p>Available on</p> -->
+     </div>
+       <div id="help-text">
+         <p>Available on</p>
+       </div>
+       <div class="flex social-btns">
+         <a class="app-btn blu flex vert" href="https://nykaa.onelink.me/2573509543/8047d88">
+           <i class="fab fa-apple"></i>
+           <p>  <span class="big-txt">App Store</span></p>
+         </a>
+       
+         <a class="app-btn blu flex vert" href="https://nykaa.onelink.me/2573509543/b9cf200e">
+           <i class="fab fa-google-play"></i>
+           <p> <span class="big-txt">Play Store</span></p>
+         </a>
+           
+           <!-- <a class="app-btn blu flex vert" href="http:alphorm.com">
+           <i class="fas fa-desktop"></i>
+           <p>Application <br/> <span class="big-txt">Desktop</span></p>
+         </a> -->
+       </div>
+      
+       </div>
+        <div><img src="https://www.nykaa.com/assets/desktop/images/install_app/pop_img.png"/></div>
+ 
+    </div> 
+
+
+      <!-- footer start -->
+      <div id="box">
+        <div id="box1">
+             <!-- <div><p>Connection <span> <i class="fa-solid fa-greater-than"></i></span></p></div> -->
+            <div id="box1a">
+                 <p> <span><i class="fa-solid fa-envelope"></i></span> Get special discount on your inbox</p> 
+                 <input type="text" placeholder="Your Email" id="email"> 
+              
+
+            </div>
+            <div>
+                <p> <span><i class="fa-solid fa-mobile-screen"></i></span> EXPERIENCE THE NYKAA MOBILE APP </p>
+                <img src="google.png" alt="">
+                 <img  src="apple.png" alt="">
+            </div>
+            <div>
+                <p> <span><i class="fa-solid fa-phone"></i></span> FOR ANY HELP YOU MAY CALL US AT <br> 1800-267-4444</p>
+               
+                <p>(Monday to Saturday, 8AM to 10PM and Sunday, 10AM to 7PM)</p>
+            </div>
+        </div>
+        <div id="box2">
+            <div>
+                <h3>NYKKA</h3>
+                <p>Who are we?</p>
+                <p>Careers</p>
+                <p>Authenticity</p>
+                <p>Press</p>
+                <p>Testimonials</p>
+                <p>Nykaa CSR</p>
+                <p>Responsible <br> Disclosure</p>
+                <p>Investor Relations</p>
+            </div>
+            <div>
+                <h3>Help</h3>
+                <p>Contact Us</p>
+                <p>Frequently asked <br> questions</p>
+                <p>Store Locator</p>
+                <p>Cancellation & <br> Return</p>
+                <p>Shipping & Delivery</p>
+                <p>Sell on Nykaa</p>
+            </div>
+            <div>
+                <h3>Inspire me</h3>
+                <p>Beauty Book</p>
+                <p>Nykaa TV</p>
+                <p>Nykaa Network</p>
+                <p>Buying Guides</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <p>Offer Zone</p>
+                <p>New Launches</p>
+                <p>Nykaa Man</p>
+                <p>Nykaa Fashion</p>
+                <p>Nykaa Pro</p>
+                <p>Nykaa femina <br> beauty awards <br> winners 2019</p>
+                <p>Sitemap</p>
+            </div>
+            <div>
+                <h3>Top Categories</h3>
+                <p>Makeup</p>
+                <p>Skin</p>
+                <p>Hair</p>
+                <p>Personal Care</p>
+                <p>Appliances</p>
+                <p>Mom and Baby</p>
+                <p>Wellness</p>
+                <p>Fragrance</p>
+                <p>Natura</p>
+                <p>Luxe</p>
+            </div>
+        </div>
+        <div id="box3">
+           
+            <div class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Free-shipping.svg" alt=""></div>
+                <div><p>FREE SHIPPING</p><br>
+                    <hr>
+                    <p>for orders above INR299</p>
+                </div>
+               
+               
+            </div>
+            <div  class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/return_accepted.svg" alt=""></div>
+                <div><p>EASY RETURNS</p><br>
+                    <hr>
+                    <p>15 Day Easy Returns For Most Products</p>
+                </div>
+            </div>
+            <div  class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Authenticity.svg" alt=""></div>
+                <div><p>AUTHENTIC <br> PRODUCTS</p><br>
+                    <hr>
+                    <p>Sourced Directly from <br> Brands/ Authorised Distributors</p>
+                </div>
+            </div>
+            <div  class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Brands.svg" alt=""></div>
+                <div><p>2400+ BRANDS</p><br>
+                    <hr>
+                    <p>Well Curated 1.9Lakh + Product</p>
+                </div>
+            </div>
+            <div id="box3a1" >
+                <div> <p>Show us some love ❤ on social media</p></div>
+                <div id="box3a12">
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-instagram-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-facebook-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-youtube-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-twitter-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-pinterest-filled.svg" alt="">
+                    </div>
+                </div>
+              
+                
+            </div>
+        </div>
+        <div id="box4">
+            <div id="box4a">
+                <div>  <p>Terms & Conditions </p>  </div>
+                <div><p>Shipping Policy </p> </div>
+                <div><p>Cancellation Policy </p> </div>
+                <div><p>  Privacy Policy</p> </div>
+            </div>
+           <div>
+            <p>© 2022 Nykaa E-Retail Pvt. Ltd. All Rights Reserved.</p>
+           </div>
+           
+           
+        </div>
+    </div>
+    <!-- footer end -->
+    
+</body>
+</html>
