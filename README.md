@@ -66,7 +66,7 @@
 
 ### Payment Page:
 
-9.After entering the address, you will redirect to the payment page here you can will find many payment options . you can select either of one option. After entering the right OTP your payment will be successful.
+9.After entering the address, you will redirect to the payment page there you will find multiple payment options . you can select any one option. After entering the right OTP your payment will get successfully done.
 
 ![2022-04-02 (5)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/Payment%20Page.png)
 
