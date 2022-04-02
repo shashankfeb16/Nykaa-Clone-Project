@@ -77,94 +77,62 @@
 ![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/Payment%20Receipt.png)
 
 
-### Payment receipt: :
+### footer: :
 
 8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
 
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/footer%20(2).png)
 
 
-### Payment receipt: :
-
-8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
-
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
-
-### Payment receipt: :
+### Makeup Page: :
 
 8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
 
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/makeup.png)
 
-
-### Payment receipt: :
-
-8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
-
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
-
-
-### Payment receipt: :
+### Skin Page: :
 
 8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
 
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/skin%20(3).png)
 
 
-### Payment receipt: :
-
-8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
-
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
-
-
-### Payment receipt: :
+### Offers Page: :
 
 8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
 
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/offers.png)
 
 
-### Payment receipt: :
-
-8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
-
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
-
-
-### Payment receipt: :
+### GetApp Page: :
 
 8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
 
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/get%20app.png)
 
 
-### Payment receipt: :
-
-8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
-
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
-
-
-### Payment receipt: :
+### Store Page: :
 
 8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
 
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/store%20image.jpg)
 
 
-### Payment receipt: :
-
-8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
-
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
-
-
-### Payment receipt: :
+### Gift Crad Page: :
 
 8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
 
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/gift%20card.png)
+
+
+### Help Page: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/help.png)
+
+
+
 
 # Video demo
 [video](https://youtu.be/_P6wfJMxXvk
