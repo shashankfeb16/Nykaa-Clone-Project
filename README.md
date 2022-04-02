@@ -13,41 +13,41 @@
 
 
 # Key Highlights of our project.
-#### In order to useour website you need to follow the below steps.
+#### In order to use our website you need to follow the below steps.
+
 ### Landing Page:
 
-1.Open index.html on live server(using VS code live server).
+1.Open index.html on live server(using VS code live server).You will see our Landing Page 
 
-![2021-11-11 (5)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/landing%20page.png)
+![2022-04-02 (5)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/landing%20page.png)
 
 ### Sign in Page:
 
-2.This is the landing page of the clone website.
-   click on the sign up on the top right to sign up.
+2.It is for new users one can sign up for ordering, And can enjoy the services of Nykaa. Signup contains the registration of email, mobile number, and setting of a password.
    
 ![2021-11-13 (3)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/sigin.png)
 
 ### login Page:
 
-3.After successfully sign in user can enter email and right password for getting in .
+3.After signup, One can log in to the site by entering the rightemail id and password..
 
 ![2021-11-11 (7)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/login.png)
 
 ### Home Page:
 
-4.After successfully sign in user can enter email and right password for getting in .
+4.After successfully login you will redirect to our HomePgae. Where you will find all information related with our website.
 
 ![2021-11-11 (7)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/homepage.png)
 
 ### Brands Page:
 
-5.In the brand page we see various products on the basis of popularity and also user can filter the products on the basis of their prices and there is options to add products in cart and wishlist and if we click on particular product, the user will navigate to the product detail page.
+5.In the brand page we can see various products on the basis ofrating and also user can sort functionality for price hight to low and vice versa. There is an options to add products in cart .
 
 ![2021-11-11 (8)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/brands.png)
 
 ### Nykaa Page:
 
-6.In the brand page we see various products on the basis of popularity and also user can filter the products on the basis of their prices and there is options to add products in cart and wishlist and if we click on particular product, the user will navigate to the product detail page.
+6.In this you will see all products which are available only on Nykaa.
 
 ![2021-11-11 (8)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/nykaa%20products.png)
 
@@ -66,7 +66,7 @@
 
 ### Payment Page:
 
-9.After entering the address, you will redirect to the payment page here u can use a debit card for payment and after entering the right OTP your payment will be successful.
+9.After entering the address, you will redirect to the payment page here you can will find many payment options . you can select either of one option. After entering the right OTP your payment will be successful.
 
 ![2021-11-11 (12)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/Payment%20Page.png)
 
@@ -79,55 +79,55 @@
 
 ### footer: :
 
-11.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+11.At the bottom of our site there is a section which contains all information about our company, term and conditions, and customer support.
 
 ![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/footer%20(2).png)
 
 
 ### Makeup Page: :
 
-12.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+12.This page contains makeup related products.
 
 ![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/makeup.png)
 
 ### Skin Page: :
 
-13.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+13.This page contains skin related products.
 
 ![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/skin%20(3).png)
 
 
 ### Offers Page: :
 
-14.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+14.This page conatins current offers which are going on.
 
 ![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/offers.png)
 
 
 ### GetApp Page: :
 
-15.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+15.you can also use our mobile through the download link which is provided here.
 
 ![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/get%20app.png)
 
 
 ### Store Page: :
 
-16.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+16.This page will give you location of our nearest stores.
 
 ![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/store.png)
 
 
 ### Gift Crad Page: :
 
-17.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+17.you can also gift the products throgh this page.
 
 ![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/gift%20card.png)
 
 
 ### Help Page: :
 
-18.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+18.For FAQ one can use this page .
 
 ![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/help.png)
 
