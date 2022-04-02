@@ -156,11 +156,11 @@
 >  [blog Link]()
 
 ### Shashank Nath :
-> [Linkedin](http://www.linkedin.com/in/kalpit-sharma1998)
+> [Linkedin](https://www.linkedin.com/in/shashank-nath-9b8970147/)
 
-> [GitHub](https://github.com/Kalpit1998)
+> [GitHub](https://github.com/shashankfeb16)
 
->  [blog Link]()
+>  [blog Link](https://medium.com/@shashankfeb16/project-nykka-clone-218245d81def)
 
 ### AKSHAY RAMRAO BORASTE :
 > [Linkedin](https://www.linkedin.com/in/vishnu-dutta-90baba20b/)
