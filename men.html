@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="//images-static.nykaa.com/media/favicon/default/nykaa_favicon_a.png" type="image/x-icon">
+    <title>Men's Grooming</title>
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+  <style>
+       #topContainer{
+        display: grid;
+      
+        /* border: 1px solid red; */
+        
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows:auto;
+       background-color: white;
+     
+    }
+    #top1{
+        /* border: 1px solid black; */
+       padding: 10px;
+        background-image: url(https://adn-static1.nykaa.com/media/wysiwyg/2021/common-strip.jpg);
+        display: flex;
+        justify-content: space-around;
+        /* padding-top: 5px; */
+    }
+  #top1Left{
+      padding-top: 5px;
+      color: black;
+     
+  }
+  #top1Left>a{
+      text-decoration: none;
+      color: black;
+  }
+  #top1Left>a:hover{
+      cursor: pointer;
+      color: red;
+  }
+    
+    #top1Right{
+        display: flex;
+        justify-content: space-evenly;
+       /* border: 1px solid blue; */
+       width: 40%;  
+      
+    }
+    #top1Left:hover{
+       color: red;
+       cursor: pointer;
+    }
+    #top1Right>div:hover{
+        color: red;
+        cursor: pointer;
+    }
+  #top1Right>div{
+      margin: auto;
+      
+  }
+  #top2{
+       
+        border-bottom: 1px solid rgb(241, 220, 220);
+        padding: 13px;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    #top2>div{
+        margin-right: 30px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #top3>div:hover{
+        cursor: pointer;
+        color: red;
+    }
+    #top3>#offer>a:hover{
+     color: black;
+     
+    }
+    #top3>#offer>a{
+        color: white;
+        text-decoration: none;
+    }
+    #top2>div:hover{
+        cursor: pointer;
+        color: red;
+        
+     }
+     #top2 input{
+        
+         font-size: 15px;
+       
+     }
+     
+     
+
+    
+#logo{
+    width: 90px;
+    height: 40px;
+}
+#top3{
+    display: flex;
+    justify-content:center;
+    padding: 20px ;
+    font-size: 15px;
+    color: gray;
+    
+    
+}
+
+    #top3>div{
+       margin-right: 30px;
+    }
+    #top3>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top3>div>a:hover{
+        color: red;
+        }
+    
+    #offer{
+  background-color:  red;
+  color: white;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+#top2>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top2>div>a:hover{
+        color: red;
+        }
+        #top1Right>div>a{
+            text-decoration: none;
+            color: black;
+        }
+        #top1Right>div>a:hover{
+            color: red;
+        }
+
+
+/* header style end */
+        body{
+            background-color: #f3f3f3;
+        }
+     h1{
+        
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    #maindiv{
+        display: flex;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 110px;
+        margin-right: 125px;
+        gap: 20px;
+    }
+    #container>div{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: 20px;
+    }
+    #container>div>img{
+        margin-left: 30px;
+    }
+    #container>div>h5{
+        text-align: center;
+    }
+    #container>div>p{
+        text-align: center;
+        
+    }
+
+    @media all and(min-width: 421px) and (max-width: 780px) {
+         #container{
+             grid-template-columns: repeat(1,1fr);
+         }
+     }
+    #container>div>button{
+        border: none;
+        border-radius: 10px;
+        height: 50px;
+        width: 200px;
+        background-color: palevioletred;
+        color: white;
+        font-weight: bolder;
+        margin-left: 35px;
+        margin-right: 20px;
+
+    }
+    #container>div:hover{
+        cursor: pointer;
+    }
+    #container>div>button:hover{
+        cursor: pointer;
+       
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    select{
+        border: none;
+        width: 200px;
+        height: 50px;
+        margin-left: 20px;
+        background-color: white;
+        font-weight: bold;
+        vertical-align: bottom;
+    }
+    #box{
+            height:800px ;
+            width: 100%;
+          
+            display: flex;
+            flex-direction: column;
+          
+          
+        }
+        #box1{
+         
+           justify-content: space-around;
+           padding: 30px;
+            display: flex;
+            align-items: center;
+            background-color: #3f414d;
+            color: white;
+            
+
+        }
+        #box2{
+            
+           
+            display: flex;
+            padding-left: 200px;
+            color: white;
+            background-color: #8c8d94;
+            padding-top: 30px;
+        
+        }
+        #box3{
+          
+           
+            display: flex;
+           justify-content: center;
+        }#box4{
+           
+           
+           text-align: center;
+           background-color: #fc2779;
+           color: white;
+           font-size: 15px;padding: 6px;
+           
+
+        }
+        #email{
+            border: 1px #3f414d;
+            border-bottom: 1px solid white;
+            background-color:#3f414d ;
+            color: white;
+        }
+        #box1 img{
+            height: 40px;
+            width: 120px;
+          
+        }
+        #box1a{
+            font-size: 20px;
+        }
+        
+        #box1a > button{
+            background-color:#3f414d ;
+            color: white;
+            border-color: white;
+        }
+        /* .......box2........ */
+        #box2 div{
+            padding-right: 140px;
+           
+        }
+        #box4 div{
+            margin-right: 20px;
+        }
+        #box4a{
+            display: flex;
+            justify-content: center;
+            margin-bottom: -10px;
+        }
+        .box3a {
+         
+          display: flex;
+          justify-content: space-between;
+         width: 15%;
+          padding: 20px;
+          margin: 50px 0px;
+          font-size: 15px;
+        }
+        .box3a img{
+           margin-right: 20px;
+           margin-top: 20px;
+        }
+        .box3a p{
+            margin-bottom: -20px;
+        }
+        #box3a1{
+            width: 12%;
+          padding: 20px;
+          margin: 50px 0px;
+          font-size: 15px;
+          text-align: center;
+        }
+        #box3a12{
+            display: flex;
+            justify-content: space-around
+            
+        }
+
+  </style>
+</head>
+<body>
+    <div id="topContainer">
+
+        <!-- header start -->
+
+<div id="top1">
+<div id="top1Left"> <a href="offers.html">BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals </a></div>
+<div id="top1Right">
+      <div><i class="fa-solid fa-mobile-screen"></i> <a href="get app.html">Get App </a>
+       </div>    
+             
+<div><i class="fa-solid fa-location-dot"></i> <a href="store&events.html">Store & Events</a>
+   </div> 
+
+    <div><i class="fa-solid fa-gift"></i> <a href="gift card.html">Gift Card</a>
+       </div>
+    <div> <i class="fa-solid fa-circle-question"></i> <a href="help.html">Help</a>
+       </div> 
+</div>
+</div>
+
+<div id="top2">
+    <div>   <a href="homepage.html"><img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK47iYyT-3X758RkOppaeJ6z-1UPe_ehVqq-ldzFiA_Rw3Cwv_vQY_vk0MtNo7DsZg_Eg&usqp=CAU" alt=""> </a>
+    </div>
+    <div>Categories</div>
+    <div><a href="brands.html">Brands</a>  </div>
+    <div> <a href="nykaa.html"> Nykaa Fashion</a></div>
+    <div>Beauty Advice</div>
+    <div>Nykaa Network</div>
+    <div><i class="fa-solid fa-magnifying-glass"></i><input type="text"  placeholder= "Search on Nykaa"></div>
+    <!-- <div id="signup"><i class="fa-solid fa-user"></i><a href="signup.html"> Account</a>  -->
+        <div id="signup"><i class="fa-solid fa-user"></i><a href="homepage.html">user</a> 
+    </div>
+    <div> <i class="fa-solid fa-bag-shopping"></i>  <a href="cart.html">cart</a> </div>
+    <div><a href="index.html">Logout</a></div>
+
+</div>
+
+<div id="top3">
+   
+    <div><a href="makeup.html">Makeup</a></div>
+    <div><a href="skin.html">Skin</a></div>
+    <div><a href="hair.html">Hair</a></div>
+    <div><a href="appliances.html">Appliances</a></div>
+    <div><a href="personal care.html">Personal Care</a></div>
+    <div><a href="natural.html">Natural</a></div>
+    <div><a href="mom & baby.html">Mom & Baby</a></div>
+    <div><a href="health & wellness.html">Health & Wellness</a></div>
+    <div> <a href="men.html">Men</a></div>
+    <div><a href="fragrance.html">Fragrance</a></div>
+    <div><a href="LUXE.html">LUXE</a></div>
+    <div id="offer"> <a href="offers.html"> OFFERS </a> </div>
+</div>
+
+    </div>
+
+    <h1>Men's Grooming: Shop All Products</h1>
+    <h2>All Products</h2>
+
+    <div id="maindiv">
+        <div class="row">
+            <select  id="selected" onchange="handlepri()" >
+                <option value="">Sort by Price</option>
+                <option value="lth">Low to High</option>
+                <option value="htl">High to Low</option>
+            </select>
+            <select  id="selected1" onchange="handlerate()" >
+                <option value="">Sort by Rating</option>
+                <option value="lth">Low to High</option>
+                <option value="htl">High to Low</option>
+            </select>
+            <select>
+                <option value="">Catogary</option>
+            </select>
+            <select>
+                <option value="">Brand</option>
+            </select>
+            <select>
+                <option value="">Fragrance Family</option>
+            </select>
+            <select>
+                <option value="">Discount</option>
+            </select>
+            <select>
+                <option value="">Concious</option>
+            </select>
+            <select>
+                <option value="">Prefrence</option>
+            </select>
+            <select>
+                <option value="">Gender</option>
+            </select>
+            <select>
+                <option value="">Formulation</option>
+            </select>
+            <select>
+                <option value="">Skin Type</option>
+            </select>
+            <select>
+                <option value="">Concern</option>
+            </select>
+           </div>
+           <div id="container"></div>
+       </div>
+       <div id="box">
+        <div id="box1">
+             <!-- <div><p>Connection <span> <i class="fa-solid fa-greater-than"></i></span></p></div> -->
+            <div id="box1a">
+                 <p> <span><i class="fa-solid fa-envelope"></i></span> Get special discount on your inbox</p> 
+                 <input type="text" placeholder="Your Email" id="email"> 
+                 <button>Send</button>
+
+            </div>
+            <div>
+                <p> <span><i class="fa-solid fa-mobile-screen"></i></span> EXPERIENCE THE NYKAA MOBILE APP </p>
+                <img src="google.png" alt="">
+                 <img  src="apple.png" alt="">
+            </div>
+            <div>
+                <p> <span><i class="fa-solid fa-phone"></i></span> FOR ANY HELP YOU MAY CALL US AT <br> 1800-267-4444</p>
+               
+                <p>(Monday to Saturday, 8AM to 10PM and Sunday, 10AM to 7PM)</p>
+            </div>
+        </div>
+        <div id="box2">
+            <div>
+                <h3>NYKKA</h3>
+                <p>Who are we?</p>
+                <p>Careers</p>
+                <p>Authenticity</p>
+                <p>Press</p>
+                <p>Testimonials</p>
+                <p>Nykaa CSR</p>
+                <p>Responsible <br> Disclosure</p>
+                <p>Investor Relations</p>
+            </div>
+            <div>
+                <h3>Help</h3>
+                <p>Contact Us</p>
+                <p>Frequently asked <br> questions</p>
+                <p>Store Locator</p>
+                <p>Cancellation & <br> Return</p>
+                <p>Shipping & Delivery</p>
+                <p>Sell on Nykaa</p>
+            </div>
+            <div>
+                <h3>Inspire me</h3>
+                <p>Beauty Book</p>
+                <p>Nykaa TV</p>
+                <p>Nykaa Network</p>
+                <p>Buying Guides</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <p>Offer Zone</p>
+                <p>New Launches</p>
+                <p>Nykaa Man</p>
+                <p>Nykaa Fashion</p>
+                <p>Nykaa Pro</p>
+                <p>Nykaa femina <br> beauty awards <br> winners 2019</p>
+                <p>Sitemap</p>
+            </div>
+            <div>
+                <h3>Top Categories</h3>
+                <p>Makeup</p>
+                <p>Skin</p>
+                <p>Hair</p>
+                <p>Personal Care</p>
+                <p>Appliances</p>
+                <p>Mom and Baby</p>
+                <p>Wellness</p>
+                <p>Fragrance</p>
+                <p>Natura</p>
+                <p>Luxe</p>
+            </div>
+        </div>
+        <div id="box3">
+           
+            <div class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Free-shipping.svg" alt=""></div>
+                <div><p>FREE SHIPPING</p><br>
+                    <hr>
+                    <p>for orders above INR299</p>
+                </div>
+               
+               
+            </div>
+            <div  class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/return_accepted.svg" alt=""></div>
+                <div><p>EASY RETURNS</p><br>
+                    <hr>
+                    <p>15 Day Easy Returns For Most Products</p>
+                </div>
+            </div>
+            <div  class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Authenticity.svg" alt=""></div>
+                <div><p>AUTHENTIC <br> PRODUCTS</p><br>
+                    <hr>
+                    <p>Sourced Directly from <br> Brands/ Authorised Distributors</p>
+                </div>
+            </div>
+            <div  class="box3a">
+                <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Brands.svg" alt=""></div>
+                <div><p>2400+ BRANDS</p><br>
+                    <hr>
+                    <p>Well Curated 1.9Lakh + Product</p>
+                </div>
+            </div>
+            <div id="box3a1" >
+                <div> <p>Show us some love ❤ on social media</p></div>
+                <div id="box3a12">
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-instagram-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-facebook-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-youtube-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-twitter-filled.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-pinterest-filled.svg" alt="">
+                    </div>
+                </div>
+              
+                
+            </div>
+        </div>
+        <div id="box4">
+            <div id="box4a">
+                <div>  <p>Terms & Conditions </p>  </div>
+                <div><p>Shipping Policy </p> </div>
+                <div><p>Cancellation Policy </p> </div>
+                <div><p>  Privacy Policy</p> </div>
+            </div>
+           <div>
+            <p>© 2022 Nykaa E-Retail Pvt. Ltd. All Rights Reserved.</p>
+           </div>
+           
+           
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<script>
+       window.addEventListener("load",function(){
+        displaydata(mensproductData);
+    })
+
+    function handlepri(){
+        var selected = document.querySelector("#selected").value
+        if(selected=="lth"){
+            mensproductData.sort(function(a,b){
+        return a.price-b.price
+        });
+        displaydata(mensproductData);
+        }
+        if(selected=="htl"){
+            mensproductData.sort(function(a,b){
+                return b.price-a.price
+            });
+            displaydata(mensproductData);
+        }
+    }
+    function handlerate(){
+        var selected = document.querySelector("#selected1").value
+        if(selected=="lth"){
+            mensproductData.sort(function(a,b){
+                return a.rating-b.rating
+            });
+            displaydata(mensproductData);
+        }
+        if(selected=="htl"){
+            mensproductData.sort(function(a,b){
+                return b.rating-a.rating
+            });
+            displaydata(mensproductData);
+        }
+    }
+
+    mensproductData=[
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/b/e/beardo-hair-growth-oil.jpg",
+            name:"Beardo Hair Growth Oil",
+            price:548,
+            rating:4,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/c/0/c084a91NYKAB00000507_1.jpg",
+            name:"Nykaa SKINRX 5% Niacinamide Spot Correct",
+            price:319,
+            rating:4,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/5/7/57c37308904223818706_1.jpg",
+            name:"Ustraa Hair Growth Vitalizer-Boost Hair",
+            price:545,
+            rating:4,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/9/9/994a850NYKAB00000184_1.jpg",
+            name:"Nykaa Naturals Tea Tree & Neem Purifying & Hydrating",
+            price:297,
+            rating:5,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/1/b/1bca9528907367001867_1.jpg",
+            name:"The Man Company Charcoal Face Wash With",
+            price:244,
+            rating:4,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/2/a/2abb2caNYKMCF0000002_1.jpg",
+            name:"MCaffeine Naed & Raw Tan Removal Coffee Body",
+            price:395,
+            rating:5,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/c/d/cd9f379nykmcf0000008_1_new.jpg",
+            name:"MCaffeine Naked & Rich Deep Moisturizing Choco",
+            price:575,
+            rating:4,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/a/c/acf7ff9nykmcf0000004_1new.jpg",
+            name:"MCaffeine Naked & Raw Tan Removal Coffee Face",
+            price:315,
+            rating:4,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/c/4/c4c1578nymcfn0000031_1rvm.jpg",
+            name:"MCaffeine Naked & Raw Coffee Body Polishing Oil",
+            price:399,
+            rating:5,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/e/f/efd9418NYMCFN0000029_1.jpg",
+            name:"MCaffeine Naked and Raw Coffee Under Eye Cream",
+            price:515,
+            rating:5,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/7/8/78b6578nykmcf0000003_1rvm.jpg",
+            name:"MCaffeine Naked & Raw Deep Cleansing Coffee",
+            price:315,
+            rating:4,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/e/e/eecdff9nymcfcom00033_1new.jpg",
+            name:"MCaffeine Body Polishing Kit",
+            price:865,
+            rating:5,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/3/c/3c45fdcNYMCFN0000022_1.jpg",
+            name:"MCaffeine Vitamin C Green Tea Face Serum for",
+            price:555,
+            rating:4,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/0/5/05e9578nymcfn0000025_1rvm.jpg",
+            name:"MCaffeine Naked & Raw Moisturizing Coffee Body",
+            price:319,
+            rating:5,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/c/1/c157735nymcfn0000032_nkw1.jpg",
+            name:"MCaffeine Coffee Hydrating Face Serum For",
+            price:579,
+            rating:4,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/b/8/b8e2578nykmcf0000009_1rvm.jpg",
+            name:"MCaffeine Naked & Raw Tan Removal Coffee Face",
+            price:515,
+            rating:5,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/c/2/c2b2509nymcfcom00057_1.jpg",
+            name:"MCaffeine Body Toning & Polishing Kit",
+            price:995,
+            rating:5,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/3/4/3414202000510_davcwm19edt40mlpackanglecmyk_1.jpg",
+            name:"Davidoff Cool Water Eau De Toilette For Men",
+            price:3600,
+            rating:4,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/c/3/c335735nymcfn0000023_nkw1.jpg",
+            name:"MCaffeine Naked Detox Hydrating Green Tea Night",
+            price:515,
+            rating:5,
+        },
+        {
+            img_Url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/v/e/versace_dylanblue_30ml_bottle_1_1.jpg",
+            name:"Versace Pour Homme Dylan Blue Eau De Toilette",
+            price:4545,
+            rating:5,
+        },
+
+    ]
+    var mensproductcart = JSON.parse(localStorage.getItem("data")) || [];
+     function displaydata(mensproductData){
+      document.querySelector("#container").innerHTML = "";
+      mensproductData.map(function (elem){
+       var box = document.createElement("div");
+       var img = document.createElement("img");
+       img.src = elem.img_Url;
+       var name = document.createElement("h5");
+       name.innerText = elem.name;
+       var price = document.createElement("p");
+       price.innerText = "MRP"+": "+ elem.price;
+       var rating = document.createElement("p");
+       rating.innerText = "Rating"+"-"+elem.rating;
+       var btn = document.createElement("button");
+       btn.innerText = "Add to Bag";
+       btn.addEventListener("click",function(){
+           addtocart(elem);
+       })
+       box.append(img,name,price,rating,btn);
+       document.querySelector("#container").append(box);
+   });
+  }
+   function addtocart(elem){
+        mensproductcart.push(elem);
+        localStorage.setItem("data",JSON.stringify(  mensproductcart));
+        alert("Item added to cart");
+        console.log(  mensproductcart);
+   }
+</script>
