@@ -18,51 +18,63 @@
 
 1.Open index.html on live server(using VS code live server).
 
-![2021-11-11 (5)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/Screenshot%20(41).png)
+![2021-11-11 (5)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/landing%20page.png)
 
 ### Sign in Page:
 
 2.This is the landing page of the clone website.
    click on the sign up on the top right to sign up.
    
-![2021-11-13 (3)](https://user-images.githubusercontent.com/61643245/141608718-90305419-c33e-48a6-b55a-042adbeaa778.png)
+![2021-11-13 (3)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/sigin.png)
 
 ### login Page:
 
 3.After successfully sign in user can enter email and right password for getting in .
 
-![2021-11-11 (7)](https://user-images.githubusercontent.com/61643245/141608761-622cb61d-2fc2-4c67-bc39-a27d8561a4a9.png)
+![2021-11-11 (7)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/login.png)
 
-### brand Page:
+### Home Page:
+
+3.After successfully sign in user can enter email and right password for getting in .
+
+![2021-11-11 (7)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/homepage.png)
+
+### Brands Page:
 
 4.In the brand page we see various products on the basis of popularity and also user can filter the products on the basis of their prices and there is options to add products in cart and wishlist and if we click on particular product, the user will navigate to the product detail page.
 
-![2021-11-11 (8)](https://user-images.githubusercontent.com/61643245/141407751-7aec837b-d78f-4b74-9911-a31abdea26b3.png)
+![2021-11-11 (8)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/brands.png)
+
+### Nykaa Page:
+
+4.In the brand page we see various products on the basis of popularity and also user can filter the products on the basis of their prices and there is options to add products in cart and wishlist and if we click on particular product, the user will navigate to the product detail page.
+
+![2021-11-11 (8)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/nykaa%20products.png)
 
 ### Cart Page:
 
 5.From the brand page, you can add items to the cart for ordering or for future checkout. The cart will have your watchlist and anytime you can also remove items from the cart and can add also.
 
-![2021-11-11 (9)](https://user-images.githubusercontent.com/61643245/141408347-122168ca-3716-49dc-bced-11ae3113b097.png)
+![2021-11-11 (9)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/cart.png)
 
 ### Adress Page:
 
 6.For confirming an order, one has to enter the address for delivery of the item. Also, here all fields are mandatory any field which has no field will not lead to the next page.
 
-![2021-11-11 (10)](https://user-images.githubusercontent.com/61643245/141407766-72a8edbd-53cd-442f-9ce0-c021b96d8a6b.png)
-![2021-11-11 (11)](https://user-images.githubusercontent.com/61643245/141407777-8d8f9129-1733-49d6-9f20-66f58888af88.png)
+![2021-11-11 (10)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/adress.png)
+
 
 ### Payment Page:
 
 7.After entering the address, you will redirect to the payment page here u can use a debit card for payment and after entering the right OTP your payment will be successful.
 
-![2021-11-11 (12)](https://user-images.githubusercontent.com/61643245/141407934-f674f13f-cfc1-49b9-b02a-5b839cade800.png)
+![2021-11-11 (12)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/Payment%20Page.png)
 
 ### Payment receipt: :
 
 8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
 
-![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+![2021-11-11 (13)](https://github.com/faisal1205/Nykaa-Clone-Project/blob/master/Payment%20Receipt.png)
 
 
 ### Payment receipt: :
