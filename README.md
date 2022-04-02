@@ -78,17 +78,17 @@
 
 >  [GitHub](https://github.com/Ankit-Mishra07)
 
-### Pavan :boy:
+### Pavan Gopalrao Ambulkar :boy:
 > [Linkedin](https://www.linkedin.com/in/gaurav-maihuria/)
 
 > [GitHub](https://github.com/gaurav16-lang)
 
-###Shashank :boy:
+### Shashank Nath :boy:
 > [Linkedin](http://www.linkedin.com/in/kalpit-sharma1998)
 
 > [GitHub](https://github.com/Kalpit1998)
 
-### Akshay :boy:
+### AKSHAY RAMRAO BORASTE :boy:
 > [Linkedin](https://www.linkedin.com/in/vishnu-dutta-90baba20b/)
 
 > [GitHub](https://github.com/vishnudutta1)
