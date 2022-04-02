@@ -141,35 +141,35 @@
 
 # Authors
 
-### Faisal Mirza :boy:
+### Faisal Mirza :
 >  [Linkedin](https://www.linkedin.com/in/faisal-baig-mirza-6a48a1155/)
 
 >  [GitHub](https://github.com/faisal1205)
 
->  [blog Link](https://github.com/faisal1205)
+>  [blog Link](https://medium.com/@mirzafaisal030/collaborative-project-at-masai-school-nykaa-clone-e6aae178053e)
 
-### Pavan Gopalrao Ambulkar :boy:
+### Pavan Gopalrao Ambulkar :
 > [Linkedin](https://www.linkedin.com/in/gaurav-maihuria/)
 
 > [GitHub](https://github.com/gaurav16-lang)
 
 >  [blog Link]()
 
-### Shashank Nath :boy:
+### Shashank Nath :
 > [Linkedin](http://www.linkedin.com/in/kalpit-sharma1998)
 
 > [GitHub](https://github.com/Kalpit1998)
 
 >  [blog Link]()
 
-### AKSHAY RAMRAO BORASTE :boy:
+### AKSHAY RAMRAO BORASTE :
 > [Linkedin](https://www.linkedin.com/in/vishnu-dutta-90baba20b/)
 
 > [GitHub](https://github.com/vishnudutta1)
 
 >  [blog Link]()
 
-### Prithvi Sigh Rathor:boy:
+### Prithvi Sigh Rathor:
 > [Linkedin](https://www.linkedin.com/in/ambika-kumari-5aa792165)
 
 > [GitHub](https://github.com/ambika13kumari)
