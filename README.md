@@ -65,6 +65,94 @@
 ![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
 
 
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
+
+
+### Payment receipt: :
+
+8.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2021-11-11 (13)](https://user-images.githubusercontent.com/61643245/141407799-3d0caf92-b944-4a9a-b3a6-7205d4f69389.png)
 
 # Video demo
 [video](https://youtu.be/_P6wfJMxXvk
