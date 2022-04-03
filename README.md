@@ -149,11 +149,11 @@
 >  [blog Link](https://medium.com/@mirzafaisal030/collaborative-project-at-masai-school-nykaa-clone-e6aae178053e)
 
 ### Pavan Gopalrao Ambulkar :
-> [Linkedin](https://www.linkedin.com/in/gaurav-maihuria/)
+> [Linkedin](https://www.linkedin.com/in/pavanambulkar/)
 
-> [GitHub](https://github.com/gaurav16-lang)
+> [GitHub](https://github.com/ambulkarpavan)
 
->  [blog Link]()
+>  [blog Link](https://medium.com/@pavanambulkar2/nykaa-clone-collaborative-project-at-masai-school-a5c82995fb5d)
 
 ### Shashank Nath :
 > [Linkedin](https://www.linkedin.com/in/shashank-nath-9b8970147/)
