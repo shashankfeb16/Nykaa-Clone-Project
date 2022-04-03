@@ -169,7 +169,7 @@
 
 >  [blog Link](https://medium.com/@akshayboraste778/nykaa-clone-ee7337e6a7c)
 
-### Prithvi Sigh Rathor:
+### Prithvi Sigh Rathore:
 > [Linkedin](https://www.linkedin.com/in/prithvi-singh-rathore-6075a0163/)
 
 > [GitHub](https://github.com/Prithvi2109)
