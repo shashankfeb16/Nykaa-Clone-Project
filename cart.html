@@ -549,8 +549,8 @@
 </body>
 </html>
 <script>
-    var pearsdata = JSON.parse(localStorage.getItem("data"));
-    var nykaadata = JSON.parse(localStorage.getItem("data1"));
+    var pearsdata = JSON.parse(localStorage.getItem("data")) || [];
+    var nykaadata = JSON.parse(localStorage.getItem("data1")) || [];
     var total = pearsdata.reduce(function(sum,e,i,arr){
         return sum+e.price;
     },0);
@@ -616,5 +616,5 @@ localStorage.setItem("cartData",JSON.stringify(cartData))
         nykaadata.splice(i,1);
         localStorage.setItem("data1",JSON.stringify(nykaadata));
         window.location.reload();
-    }
+     }
 </script>
