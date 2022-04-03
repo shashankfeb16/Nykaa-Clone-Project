@@ -170,11 +170,11 @@
 >  [blog Link](https://medium.com/@akshayboraste778/nykaa-clone-ee7337e6a7c)
 
 ### Prithvi Sigh Rathor:
-> [Linkedin](https://www.linkedin.com/in/ambika-kumari-5aa792165)
+> [Linkedin](https://www.linkedin.com/in/prithvi-singh-rathore-6075a0163/)
 
-> [GitHub](https://github.com/ambika13kumari)
+> [GitHub](https://github.com/Prithvi2109)
 
->  [blog Link]()
+>  [blog Link](https://medium.com/@rathoreprithvisingh/nykaa-clone-a-collaborative-project-at-masai-learning-school-51d6c2fab2eb)
 
 
 
