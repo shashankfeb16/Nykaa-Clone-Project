@@ -167,7 +167,7 @@
 
 > [GitHub](https://github.com/akbora1994)
 
->  [blog Link]()
+>  [blog Link](https://medium.com/@akshayboraste778/nykaa-clone-ee7337e6a7c)
 
 ### Prithvi Sigh Rathor:
 > [Linkedin](https://www.linkedin.com/in/ambika-kumari-5aa792165)
