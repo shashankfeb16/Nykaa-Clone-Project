@@ -163,9 +163,9 @@
 >  [blog Link](https://medium.com/@shashankfeb16/project-nykka-clone-218245d81def)
 
 ### AKSHAY RAMRAO BORASTE :
-> [Linkedin](https://www.linkedin.com/in/vishnu-dutta-90baba20b/)
+> [Linkedin]()
 
-> [GitHub](https://github.com/vishnudutta1)
+> [GitHub](https://github.com/akbora1994)
 
 >  [blog Link]()
 
